@@ -14,6 +14,7 @@ import Mobile from "@/components/Mobile/Mobile";
 import FAQ from "@/components/FAQ/FAQ";
 import Support from "@/components/Support/Support";
 import Info from "@/components/Info/Info";
+import BonusesAndPromos from "@/components/BonusesAndPromos/BonusesAndPromos";
 
 export default function Home() {
   const [dataLoaded, setDataLoaded] = useState(false);
@@ -57,6 +58,7 @@ export default function Home() {
 
       <Info />
       <Support />
+      <BonusesAndPromos />
     </>
   );
 }
