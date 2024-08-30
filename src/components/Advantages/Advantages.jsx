@@ -36,7 +36,7 @@ export default function Advantages({ firstId }) {
                 width={30}
                 height={30}
               />
-             Multiple dining venues
+              Multiple dining venues
             </li>
             <li>
               <Image
@@ -65,7 +65,9 @@ export default function Advantages({ firstId }) {
         </div>
         <div className={style.line}></div>
         <div className={style.appBox}>
-          <h2 className={`title ${style.advantages__title}`}>Rocket Casino APP</h2>
+          <h2 className={`title ${style.advantages__title}`}>
+            Rocket Casino APP
+          </h2>
           <div className={style.appImgBox}>
             <Image
               className={style.appPhoneImg}
@@ -75,6 +77,7 @@ export default function Advantages({ firstId }) {
               width={512}
               height={487}
             />
+
             <div className={style.linkList}>
               <a href={`/casino/${firstId}`}>
                 <Image
