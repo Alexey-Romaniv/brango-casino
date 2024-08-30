@@ -1,12 +1,20 @@
 .historySection {
-  background-image: url('/images/Ellipse.webp');
-  background-size: contain;
+  padding-top: 40px;
+  background-image: url("/images/bg.webp");
+  background-size: cover;
   background-position: center 0;
   background-repeat: no-repeat;
 }
 .list {
   display: grid;
   gap: 40px;
+}
+.title__small {
+  font-size: 24px;
+}
+.pay__list {
+  padding-left: 20px;
+  list-style-type: disc;
 }
 .adventList {
   margin-left: 32px;
@@ -19,10 +27,14 @@
   @media screen and (min-width: 1024px) {
     flex-direction: row;
     align-items: flex-end;
+    gap: 51px;
     & img {
-      width: 45%;
-      height: 45%;
+      width: 464px;
+      height: auto;
     }
+  }
+  @media screen and (min-width: 1440px) {
+    gap: 141px;
   }
 }
 .aboutLaptop {
