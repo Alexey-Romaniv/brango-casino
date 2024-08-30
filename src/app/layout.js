@@ -1,3 +1,4 @@
+import "../../public/fonts/fonts.css";
 import "../styles/globals.scss";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
@@ -89,8 +90,6 @@ export default function RootLayout({ children }) {
           type="image/webp"
           sizes="96x96"
         />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2"
