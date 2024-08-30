@@ -16,7 +16,7 @@ export default function BonusesAndPromos() {
               which of the rewards to use.
             </p>
           </li>
-          <div className={style.section__grid}>
+          <span className={style.section__grid}>
             <li>
               <h2 className={`title ${style.section__title}`}>
                 First Welcome Bonus: Rocket Play Casino Free Spins
@@ -90,7 +90,7 @@ export default function BonusesAndPromos() {
                 for everyone.
               </p>
             </li>
-          </div>
+          </span>
         </ul>
       </div>
     </section>

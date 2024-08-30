@@ -4,9 +4,9 @@ export default function AdvantagesSection() {
   return (
     <section className={`section ${style.historySection}`}>
       <div className="container">
-        <ul className={style.list}>
-          <li>
-            <h2 className="title">
+        <div className={style.list}>
+          <div className={style.list__top}>
+            <h2 className={`title ${style.section__mainTitle}`}>
               Advantages and Disadvantages: Casino Rocket Australia
             </h2>
             <p>
@@ -16,9 +16,9 @@ export default function AdvantagesSection() {
               on this site or look for other options among web platforms in
               Australia.
             </p>
-          </li>
-          <div className={style.section__grid}>
-            <li>
+          </div>
+          <span className={style.section__grid}>
+            <div>
               <h2 className={`title ${style.section__title}`}>Advantages</h2>
               <ul className={style.adv__list}>
                 <li>range of games</li>
@@ -30,16 +30,16 @@ export default function AdvantagesSection() {
                 <li>different payment systems</li>
                 <li>large selection of providers</li>
               </ul>
-            </li>
-            <li>
+            </div>
+            <div>
               <h2 className={`title ${style.section__title}`}>Disadvantages</h2>
               <ul className={style.adv__list}>
                 <li>no online chat</li>
                 <li>application not for all OS</li>
               </ul>
-            </li>
-          </div>
-        </ul>
+            </div>
+          </span>
+        </div>
       </div>
     </section>
   );

@@ -18,7 +18,7 @@ export default function Info() {
               new website.
             </p>
           </li>
-          <div className={style.section__grid}>
+          <span className={style.section__grid}>
             <li>
               <h2 className={`title ${style.section__title}`}>
                 Pokies: Casino Rocket FAQ
@@ -117,7 +117,7 @@ export default function Info() {
                 patience. And most importantly - learn to enjoy gambling.
               </p>
             </li>
-          </div>
+          </span>
         </ul>
       </div>
     </section>
