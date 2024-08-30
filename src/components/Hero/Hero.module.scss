@@ -1,0 +1,76 @@
+@import "../../styles/vars";
+
+.section {
+  position: relative;
+  padding: 320px 0 120px;
+  background: url("/images/hero-mob.webp");
+  background-size: 320px auto;
+  background-position: top 93px right 50%;
+  background-repeat: no-repeat;
+  @media screen and (min-width: 576px) {
+    padding: 420px 0 120px;
+    background-size: 576px 420px;
+    background-position: top 63px right 50%;
+  }
+  @media screen and (min-width: 1024px) {
+    padding: 155px 0 202px;
+    background-position: top 63px right 0;
+  }
+  @media screen and (min-width: 1200px) {
+    background: url("/images/hero-img.webp");
+    background-repeat: no-repeat;
+    background-size: 740px auto;
+    background-position: top 92px right 0;
+  }
+  @media screen and (min-width: 1440px) {
+    background-position: top 92px right calc((100vw - 1440px) / 2);
+  }
+}
+.wrapper {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1440px;
+  z-index: 2;
+  @media screen and (min-width: 576px) {
+    padding: 0 40px;
+  }
+  @media screen and (min-width: 1440px) {
+    padding: 0 160px;
+  }
+}
+.title {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  /* Desktop/Welcome */
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #00ff6d 0%, #009941 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 40px;
+  @media screen and (min-width: 400px) {
+    font-size: 56px;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 64px;
+    margin-bottom: 48px;
+  }
+}
+.text {
+  color: $third-text-color;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  @media screen and (min-width: 400px) {
+    font-size: 24px;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 32px;
+    margin-bottom: 48px;
+  }
+}

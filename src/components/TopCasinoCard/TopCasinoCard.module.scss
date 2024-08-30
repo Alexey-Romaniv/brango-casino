@@ -1,0 +1,54 @@
+@import "../../styles/vars";
+
+.card {
+  height: 100%;
+  min-width: 240px;
+  max-width: 260px;
+  width: 100%;
+  padding: 16px;
+  border: 2px solid #f6f2ff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: $card-bg-color;
+  text-align: center;
+  @media screen and (min-width: 576px) {
+    padding: 32px 24px;
+    min-width: 260px;
+  }
+}
+.card__logo {
+  width: 160px;
+  height: 64px;
+  margin: 0 auto;
+  @media screen and (min-width: 576px) {
+    width: 190px;
+    height: 76px;
+  }
+}
+.card__name {
+  color: $third-text-color;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+.card__title {
+  color: $text-color;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.bonus {
+  color: $third-text-color;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: auto;
+  @media screen and (min-width: 576px) {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,32 @@
+.historySection {
+  background-image: url('/images/Ellipse.webp');
+  background-size: contain;
+  background-position: center 0;
+  background-repeat: no-repeat;
+}
+.list {
+  display: grid;
+  gap: 40px;
+}
+.adventList {
+  margin-left: 32px;
+  list-style: disc;
+}
+.firstRow {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  @media screen and (min-width: 1024px) {
+    flex-direction: row;
+    align-items: flex-end;
+    & img {
+      width: 45%;
+      height: 45%;
+    }
+  }
+}
+.aboutLaptop {
+  @media screen and (max-width: 1024px) {
+    display: none;
+  }
+}

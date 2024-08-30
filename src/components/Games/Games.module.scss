@@ -1,0 +1,80 @@
+.list {
+  margin-bottom: 68px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.cardBox {
+  width: 250px;
+  height: 140px;
+  perspective: 1000px; /* Глубина перспективы */
+  @media screen and (min-width: 550px) {
+    width: 200px;
+    height: 111px;
+  }
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s; /* Плавное переходное свойство для анимации поворота */
+  transform-style: preserve-3d; /* Сохраняем 3D-пространство */
+
+}
+
+.card:hover .cardBack{
+  transform: scale(1.05);
+  opacity: 1;
+}
+
+.cardFront,
+.cardBack {
+  border-radius: 6px;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden; /* Скрытие обратной стороны карточки */
+}
+
+.cardFront {
+  & img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.cardBack {
+
+  width: 100%;
+  color: #080808;
+  background-color: #c0c0c0; /* Цвет обратной стороны */
+  opacity: 0;
+  transition: all 250ms ease-in-out;
+ & p {
+   font-size: 19px;
+   font-weight: bold;
+   text-align: center;
+ }
+  & a {
+    padding: 12px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    font-size: 20px;
+    color: #080808;
+  }
+  & span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+
+}

@@ -1,0 +1,167 @@
+@import "../../styles/vars";
+
+.mainBox {
+  position: relative;
+  z-index: 100;
+  border-radius: 8px;
+  border: 2px solid #f6f2ff;
+  background-color: $card-bg-color;
+  display: grid;
+  column-gap: 1px;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 20% 18% 8% 15% 12% 1fr;
+  grid-template-rows: auto auto;
+
+  & span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+    & img {
+      margin: auto;
+    }
+  }
+
+  & span:nth-of-type(1) {
+    position: relative;
+  }
+  & span:nth-of-type(1)::before {
+    content: "";
+    height: 64px;
+    display: inline-block;
+    width: 1px;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 8px;
+    right: 0px;
+  }
+
+  @media screen and (max-width: 1199px) {
+    grid-template-columns: 30% 25% 25% 20%;
+
+    // & span:nth-child(2) {
+    //   display: none;
+    // }
+  }
+  @media screen and (min-width: 1200px) {
+    & span {
+      position: relative;
+    }
+    & span::before {
+      content: "";
+      height: 64px;
+      display: inline-block;
+      width: 1px;
+      background-color: rgba(0, 0, 0, 0.2);
+      position: absolute;
+      top: 8px;
+      right: 0px;
+    }
+  }
+}
+
+.detailsBox {
+  margin-top: 0;
+  margin-bottom: 0;
+  grid-column: 1 / -1;
+  grid-row: 2;
+  display: grid;
+  max-height: 0;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+
+  &.isOpen {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    max-height: 700px;
+  }
+
+  & .detailsBox__text {
+    padding: 8px;
+    border-bottom: 1px solid $card-bg-color;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    text-align: left;
+    color: $third-text-color;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.78;
+    @media screen and (min-width: 1200px) {
+      grid-template-columns: 20% 80%;
+    }
+  }
+  & .detailsBox__text span {
+    text-align: left;
+  }
+  & .detailsBox__text > span:nth-of-type(1) {
+    display: block;
+    //  width: 26.7vw;
+    border-right: 1px solid $card-bg-color;
+    text-align: left;
+  }
+
+  & .detailsBox__text > span:nth-of-type(2) {
+    text-align: left;
+  }
+  & .detailsBox__span {
+    text-align: left;
+    padding-left: 10px;
+  }
+  & > div {
+    margin-right: 0;
+    margin-left: auto;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    padding: 10px 0;
+    .btn {
+      width: 200px;
+      height: 54px;
+
+      font-size: 18px;
+    }
+  }
+}
+
+.infoBtn {
+  width: 32px;
+  border: 0;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+
+  & img {
+    margin: auto;
+    @media screen and (min-width: 1200px) {
+      width: 24px;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    width: 24px;
+  }
+}
+
+.mobileNone {
+  .btn__desk {
+    min-width: 218px;
+    max-width: 218px;
+    height: 58px;
+    font-size: 20px;
+  }
+  @media screen and (max-width: 1199px) {
+    display: none !important;
+  }
+}
+
+.desktopNone {
+  @media screen and (min-width: 1200px) {
+    display: none;
+  }
+}
+
+.casinoLogo {
+  width: 160px;
+  height: 64px;
+}

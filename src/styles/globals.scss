@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto:wght@500;700&display=swap");
+@import "vars";
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+//main
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: $text-color;
+  background-color: $bg-color;
+  line-height: 1.4;
+}
+.body-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.body-wrapper a {
+  transition: transform 0.25s ease-in-out; /* Пример для ссылок */
+}
+main {
+  flex-grow: 1;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  min-width: 320px;
+  width: 100%;
+  max-width: 1440px;
+  @media screen and (min-width: 576px) {
+    padding: 0 40px;
+  }
+  @media screen and (min-width: 1440px) {
+    padding: 0 160px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  width: 114px;
+}
+.section {
+  padding-bottom: 120px;
+  @media screen and (min-width: 1440px) {
+    padding-bottom: 140px;
+  }
+}
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  color: $third-text-color;
+  @media screen and (min-width: 1024px) {
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 48px;
+  }
+}
+
+.text {
+  margin-bottom: 40px;
+}
+.loader_box {
+  display: grid;
+  grid-template-rows: 1fr;
+  width: 100%;
+  height: 70vh;
+  background-color: $bg-color;
+}
+.loader {
+  margin: auto;
+  width: 60px;
+  height: 60px;
+  animation: loader 2s linear infinite;
+}
+.accent {
+  color: $accent-color;
+}
+@keyframes loader {
+  0% {
+    transform: rotateZ(0);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 50px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .logo {
+    width: 114px;
+  }
+}
+
+@keyframes scrollAnimation {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+// NOT-FOUND PAGE
+.not-found__box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  & a {
+    margin-top: 16px;
+    display: inline-block;
+    color: $text-color;
+    background-color: $accent-color;
+    padding: 12px 32px;
+    border-radius: 8px;
+    border: 0;
+    outline: none;
+  }
+  @media screen and (min-width: 768px) {
+    & h2 {
+      font-size: 60px;
+    }
+    & p {
+      font-size: 32px;
+    }
+  }
+}

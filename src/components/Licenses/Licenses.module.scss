@@ -1,0 +1,15 @@
+.box {
+  display: grid;
+  gap: 40px;
+  align-items: center;
+  @media screen and (min-width: 1024px) {
+    grid-template-columns: 1fr 1fr;
+  }
+  & img {
+    width: 280px;
+    height: auto;
+    @media screen and (max-width: 1023px) {
+      margin: 0 auto;
+    }
+  }
+}
