@@ -54,8 +54,9 @@ export default function Home() {
       <Providers firstId={data?.offers[0].id} />
       <Mobile firstId={data?.offers[0].id} />
       <FAQ />
-      <Support />
+
       <Info />
+      <Support />
     </>
   );
 }

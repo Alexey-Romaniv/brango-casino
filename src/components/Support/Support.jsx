@@ -1,18 +1,42 @@
 import style from "./Support.module.scss";
 import Image from "next/image";
 export default function Support() {
-    return (
-        <section className="section">
-            <div className="container">
-                <h2 className="title">Support</h2>
-                <div className={style.box}>
-                    <p>Grey Eagle Casino offers excellent customer support through various channels, including email and
-                        social media platforms such as LinkedIn, Facebook, Instagram, and TikTok. Guests can reach out
-                        for assistance, information, or inquiries through these channels to enhance their experience at
-                        the casino.</p>
-                    <Image className={style.supportImg} src="/images/form.webp" alt="Grey Eagle Casino form" width={419} height={252}/>
-                </div>
-            </div>
-        </section>
-    )
+  return (
+    <section className={`section ${style.section__support}`}>
+      <div className={`container ${style.support__container}`}>
+        <div>
+          <h2 className="title">
+            Support: Rocket Play Casino No Deposit Bonus Codes 2023
+          </h2>
+          <div className={style.box}>
+            <p>
+              The Casino Rocket service was founded in 2020. Since then, the
+              site has begun to rapidly develop and conquer new regions. Thanks
+              to the license, the platform is available in different countries.
+              Although the main region of activity is Australia.
+            </p>
+            <br />
+            <p>There are several options for contacting its support:</p>
+            <ul className={style.list}>
+              <li>e-mail</li>
+              <li>social networks</li>
+              <li>FAQ</li>
+            </ul>
+            <br />
+            <p>
+              Unfortunately, at the moment there is no online chat and support
+              phone number.
+            </p>
+          </div>
+        </div>
+        <Image
+          className={style.supportImg}
+          src="/images/form.webp"
+          alt="Rocket Casino form"
+          width={420}
+          height={200}
+        />
+      </div>
+    </section>
+  );
 }
