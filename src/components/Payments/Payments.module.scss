@@ -1,35 +1,92 @@
 @import "../../styles/vars";
-
+.section__payment {
+  padding-top: 96px;
+  @media screen and (min-width: 1024px) {
+    padding-top: 140px;
+  }
+}
 .list {
   display: none;
   li:first-child {
     height: 60px;
   }
 }
+
 .listDesk {
   display: grid;
   gap: 40px;
+
   & li {
+    position: relative;
     display: grid;
-    gap: 20px;
+    gap: 8px;
   }
 }
+
 .listDeskImg {
   padding: 8px 0;
-  background-color: $card-bg-color;
+  background-color: #210233;
   width: 100%;
-  & img{
-    margin: 0 auto  ;
+  height: 80px;
+  border-radius: 8px;
+  & img {
+    margin: 0 0 0 3px;
+    @media screen and (min-width: 370px) {
+      margin: 0 0 0 23px;
+    }
   }
 }
 .listDeskBox {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding: 16px;
+  border-radius: 8px;
+  border: 2px solid #f6f2ff;
+  background-color: $card-bg-color;
 }
 .listDeskOptions {
   display: grid;
+  gap: 8px;
   & span {
-    padding: 12px;
+    font-size: 12px;
+    padding: 0 8px 8px;
+    @media screen and (min-width: 340px) {
+      font-size: 14px;
+    }
+    @media screen and (min-width: 400px) {
+      font-size: 18px;
+    }
+  }
+  & span:last-of-type {
+    padding: 0 8px 0;
+  }
+  & span:not(:last-of-type) {
+    padding: 0 8px 8px;
+    border-bottom: 1px solid $secondary-text-color;
+  }
+}
+.listDeskOptions:nth-of-type(2) span {
+  text-align: right;
+}
+a.btn.btn__green {
+  position: absolute;
+  top: 13px;
+  right: 8px;
+  min-width: 150px;
+  width: 150px;
+  max-width: 217px;
+  @media screen and (min-width: 450px) {
+    min-width: 217px;
+    width: 217px;
+  }
+  @media screen and (min-width: 1024px) {
+    position: relative;
+    top: 0;
+    right: 0;
+    min-width: 168px;
+    width: 168px;
+    max-width: 168px;
+    height: 52px;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -39,23 +96,34 @@
   .list {
     display: grid;
     gap: 12px;
+
+    & li:not(:first-of-type) {
+      border: 2px solid #f6f2ff;
+    }
     & li {
       display: grid;
       grid-template-columns: repeat(7, 1fr);
       align-items: center;
       justify-content: center;
       text-align: center;
+      padding: 8px 16px;
+      border-radius: 8px;
+
+      background-color: $card-bg-color;
       & span {
-          display: flex;
+        display: flex;
         align-items: center;
         justify-content: center;
         height: 100%;
-        border-right: 1px solid $bg-color;
       }
       &:first-child {
-        font-size: 21px;
+        background-color: #210233;
+        height: 60px;
+        padding: 8px 16px;
+        border-radius: 8px;
+        font-size: 18px;
         & span {
-          align-items: start;
+          align-items: center;
         }
       }
       &:nth-child(2n) {
