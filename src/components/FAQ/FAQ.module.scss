@@ -1,26 +1,38 @@
 @import "../../styles/vars";
+.section__faq {
+  padding-top: 96px;
+  @media screen and (min-width: 1024px) {
+    padding-top: 140px;
+  }
+}
 .list {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 24px;
 }
 .question {
-  padding: 12px;
-  border-radius: 6px;
-  background-color: $accent-color;
-  font-size: 20px;
+  padding: 8px 16px;
+  font-size: 18px;
   font-weight: bold;
+  border-radius: 8px;
+  border: 2px solid #f6f2ff;
+  background-color: #7a13b8;
   text-transform: uppercase;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
   cursor: pointer;
 }
 .answer {
- padding: 12px 48px;
-  font-size: 12px;
+  padding: 10px 0 24px;
+  font-size: 18px;
+  text-align: left;
 }
 
 @media screen and (min-width: 768px) {
   .question {
-    font-size: 30px;
+    font-size: 24px;
   }
   .answer {
     font-size: 20px;
