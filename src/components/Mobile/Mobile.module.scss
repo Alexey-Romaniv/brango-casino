@@ -1,9 +1,31 @@
 .mobileSection {
-  background-image: url('/images/Ellipse.webp');
-  background-size: contain;
+  padding-top: 64px;
+  background-image: url("/images/bg.webp");
+  background-size: cover;
   background-position: center 0;
   background-repeat: no-repeat;
+  position: relative;
+}
+.section__mainTitle {
+  width: 80%;
+  margin-bottom: 24px;
 
+  @media screen and (min-width: 510px) {
+    width: 70%;
+  }
+  @media screen and (min-width: 577px) {
+    width: 65%;
+  }
+}
+.section__title {
+  font-size: 18px;
+  @media screen and (min-width: 400px) {
+    font-size: 24px;
+  }
+  @media screen and (min-width: 1024px) {
+    font-size: 40px;
+    margin-bottom: 24px;
+  }
 }
 .wrapper {
   margin-bottom: 100px;
@@ -13,6 +35,9 @@
   & p {
     margin-bottom: 40px;
   }
+  & p:first-of-type {
+    width: 80%;
+  }
 }
 .linkList {
   display: flex;
@@ -20,12 +45,31 @@
   gap: 8px;
 }
 .phoneImg {
-  margin: 0 auto;
+  width: 60%;
+  position: absolute;
+  top: -101px;
+  right: 0;
+  z-index: 10;
+  @media screen and (min-width: 340px) {
+    width: 45%;
+  }
+  @media screen and (min-width: 577px) {
+    top: -151px;
+    width: 307px;
+  }
+  @media screen and (min-width: 1024px) {
+    top: -87px;
+    right: 0;
+    width: 495px;
+  }
+  @media screen and (min-width: 1024px) {
+    right: 56px;
+  }
 }
 .infoList {
   display: grid;
   gap: 40px;
-  @media screen and (min-width: 1024px){
+  @media screen and (min-width: 1024px) {
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -33,8 +77,22 @@
   .wrapper {
     grid-template-columns: 65% 35%;
     align-items: end;
+    margin-bottom: 0;
   }
   .linkList {
-    margin-bottom: 50px;
+    justify-content: flex-start;
+    margin-left: 0;
+    margin-bottom: 48px;
+    gap: 24px;
+
+    & a {
+      width: 175px;
+      height: 52px;
+    }
+
+    & a img {
+      width: 175px;
+      height: 52px;
+    }
   }
 }
