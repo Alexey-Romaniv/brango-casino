@@ -17,7 +17,11 @@
 
 .supportImg {
   display: none;
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1024px) {
     display: block;
+    width: 280px;
+  }
+  @media screen and (min-width: 1440px) {
+    width: 420px;
   }
 }

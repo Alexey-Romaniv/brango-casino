@@ -1,10 +1,41 @@
 .historySection {
-  background-image: url('/images/Ellipse.webp');
-  background-size: contain;
+  padding-top: 40px;
+  background-image: url("/images/bg.webp");
+  background-size: cover;
   background-position: center 0;
   background-repeat: no-repeat;
+  @media screen and (min-width: 1024px) {
+    padding-top: 64px;
+  }
 }
 .list {
   display: grid;
   gap: 40px;
+  @media screen and (min-width: 1024px) {
+    gap: 48px;
+  }
+}
+.section__title {
+  font-size: 18px;
+  @media screen and (min-width: 400px) {
+    font-size: 24px;
+  }
+  @media screen and (min-width: 1024px) {
+    font-size: 40px;
+    margin-bottom: 24px;
+  }
+}
+
+.section__grid {
+  @media screen and (min-width: 1024px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 64px;
+  }
+}
+
+.section__title + p {
+  @media screen and (min-width: 1024px) {
+    margin-bottom: 48px;
+  }
 }
