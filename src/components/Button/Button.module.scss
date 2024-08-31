@@ -1,15 +1,29 @@
 @import "../../styles/vars";
 
 .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 77px;
   width: 240px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   border-radius: 100px;
   border: 4px solid rgba(255, 255, 255, 0.2);
   position: relative;
   overflow: hidden;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ff0092),
+    to(#d2057b)
+  );
+  background: -o-linear-gradient(top, #ff0092 0%, #d2057b 100%);
   background: linear-gradient(180deg, #ff0092 0%, #d2057b 100%);
   z-index: 2;
   color: $text-color;
@@ -18,10 +32,16 @@
   text-transform: uppercase;
   cursor: pointer;
   margin: 0 auto;
+  -webkit-transition: -webkit-transform 250ms ease-in-out;
+  transition: -webkit-transform 250ms ease-in-out;
+  -o-transition: transform 250ms ease-in-out;
   transition: transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
 
   &:hover,
   &:focus {
+    -webkit-transform: scale(1.08);
+    -ms-transform: scale(1.08);
     transform: scale(1.08);
   }
   &.small {

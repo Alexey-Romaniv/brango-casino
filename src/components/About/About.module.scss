@@ -6,6 +6,7 @@
   background-repeat: no-repeat;
 }
 .list {
+  display: -ms-grid;
   display: grid;
   gap: 40px;
 }
@@ -21,11 +22,21 @@
   list-style: disc;
 }
 .firstRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   gap: 40px;
   @media screen and (min-width: 1024px) {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
     align-items: flex-end;
     gap: 51px;
     & img {

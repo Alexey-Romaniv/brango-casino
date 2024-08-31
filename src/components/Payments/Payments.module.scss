@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @import "../../styles/vars";
 .section__payment {
   padding-top: 96px;
@@ -13,11 +20,13 @@
 }
 
 .listDesk {
+  display: -ms-grid;
   display: grid;
   gap: 40px;
 
   & li {
     position: relative;
+    display: -ms-grid;
     display: grid;
     gap: 8px;
   }
@@ -37,7 +46,9 @@
   }
 }
 .listDeskBox {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   padding: 16px;
   border-radius: 8px;
@@ -45,6 +56,7 @@
   background-color: $card-bg-color;
 }
 .listDeskOptions {
+  display: -ms-grid;
   display: grid;
   gap: 8px;
   & span {
@@ -94,6 +106,7 @@ a.btn.btn__green {
     display: none;
   }
   .list {
+    display: -ms-grid;
     display: grid;
     gap: 12px;
 
@@ -101,9 +114,14 @@ a.btn.btn__green {
       border: 2px solid #f6f2ff;
     }
     & li {
+      display: -ms-grid;
       display: grid;
       grid-template-columns: repeat(7, 1fr);
+      -webkit-box-align: center;
+      -ms-flex-align: center;
       align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
       justify-content: center;
       text-align: center;
       padding: 8px 16px;
@@ -111,8 +129,14 @@ a.btn.btn__green {
 
       background-color: $card-bg-color;
       & span {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
         height: 100%;
       }
@@ -123,6 +147,8 @@ a.btn.btn__green {
         border-radius: 8px;
         font-size: 18px;
         & span {
+          -webkit-box-align: center;
+          -ms-flex-align: center;
           align-items: center;
         }
       }

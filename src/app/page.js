@@ -17,28 +17,11 @@ import Info from "@/components/Info/Info";
 import BonusesAndPromos from "@/components/BonusesAndPromos/BonusesAndPromos";
 import AdvantagesSection from "@/components/AdvantagesSection/AdvantagesSection";
 
-export default function Home() {
-  const [dataLoaded, setDataLoaded] = useState(false);
-  const [data, setData] = useState(null);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch(
-          "https://api.adkey-seo.com/api/website/get-website/294"
-        );
-        const loadData = await response.json();
-        setData(loadData);
-        setDataLoaded(true);
-      } catch (error) {
-        console.error("Error fetching data:", error);
-      }
-    };
-
-    if (!dataLoaded) {
-      fetchData();
-    }
-  }, [dataLoaded]);
+export default async function Home() {
+  const response = await fetch(
+    "https://api.adkey-seo.com/api/website/get-website/294"
+  );
+  const data = await response.json();
 
   return (
     <>
@@ -47,7 +30,7 @@ export default function Home() {
         firstBonus={data?.offers[0].bonuses.welcome_bonus}
       />
       <TopCasino offers={data?.offers} country={data?.website.country_name} />
-      {!dataLoaded ? <Loader /> : <BonusDetails offers={data?.offers} />}
+      {!data ? <Loader /> : <BonusDetails offers={data?.offers} />}
       <Advantages firstId={data?.offers[0].id} />
       <Games firstId={data?.offers[0].id} />
       <About />
