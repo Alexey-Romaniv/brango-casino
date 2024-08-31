@@ -1,3 +1,4 @@
+"use client";
 import Loader from "@/components/Loader/Loader";
 import Hero from "@/components/Hero/Hero";
 import TopCasino from "@/components/TopCasino/TopCasino";
@@ -14,12 +15,30 @@ import Support from "@/components/Support/Support";
 import Info from "@/components/Info/Info";
 import BonusesAndPromos from "@/components/BonusesAndPromos/BonusesAndPromos";
 import AdvantagesSection from "@/components/AdvantagesSection/AdvantagesSection";
+import { useEffect, useState } from "react";
 
-export default async function Home() {
-  const response = await fetch(
-    "https://api.adkey-seo.com/api/website/get-website/294"
-  );
-  const data = await response.json();
+export default function Home() {
+  const [dataLoaded, setDataLoaded] = useState(false);
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch(
+          "https://api.adkey-seo.com/api/website/get-website/294"
+        );
+        const loadData = await response.json();
+        setData(loadData);
+        setDataLoaded(true);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+
+    if (!dataLoaded) {
+      fetchData();
+    }
+  }, [dataLoaded]);
 
   return (
     <>
@@ -28,7 +47,7 @@ export default async function Home() {
         firstBonus={data?.offers[0].bonuses.welcome_bonus}
       />
       <TopCasino offers={data?.offers} country={data?.website.country_name} />
-      {!data ? <Loader /> : <BonusDetails offers={data?.offers} />}
+      {!dataLoaded ? <Loader /> : <BonusDetails offers={data?.offers} />}
       <Advantages firstId={data?.offers[0].id} />
       <Games firstId={data?.offers[0].id} />
       <About />
