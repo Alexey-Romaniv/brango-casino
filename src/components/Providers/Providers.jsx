@@ -1,3 +1,4 @@
+"use client";
 import style from "./Providers.module.scss";
 import { useEffect, useState } from "react";
 import Image from "next/image";

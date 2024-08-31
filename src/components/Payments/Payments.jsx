@@ -1,3 +1,4 @@
+"use client";
 import style from "@/components/Payments/Payments.module.scss";
 import Button from "@/components/Button/Button";
 import { useEffect, useState } from "react";

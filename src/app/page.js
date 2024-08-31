@@ -1,5 +1,3 @@
-"use client";
-import { useEffect, useState } from "react";
 import Loader from "@/components/Loader/Loader";
 import Hero from "@/components/Hero/Hero";
 import TopCasino from "@/components/TopCasino/TopCasino";
