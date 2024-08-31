@@ -1,15 +1,11 @@
 {
   "framework": "nextjs",
   "functions": {
-    "src/pages/**/*": {
+    "src/app/**/*": {
       "memory": 1024,
       "maxDuration": 20
     },
-    "src/pages/all-therapists/index.tsx": {
-      "memory": 1024,
-      "maxDuration": 24
-    },
-    "src/pages/all-therapists/[diseaseUrl].tsx": {
+    "src/app/page.js": {
       "memory": 1024,
       "maxDuration": 24
     }
