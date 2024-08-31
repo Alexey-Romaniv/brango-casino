@@ -1,7 +1,7 @@
 {
   "framework": "nextjs",
   "functions": {
-    "src/app/**/*": {
+    "src/app/*": {
       "memory": 1024,
       "maxDuration": 20
     },
