@@ -4,8 +4,8 @@ export default function Info() {
   return (
     <section className={`section ${style.historySection}`}>
       <div className="container">
-        <ul className={style.list}>
-          <li>
+        <div className={style.list}>
+          <div>
             <h2 className="title">
               Games Available to Play: Casino Rocket Games
             </h2>
@@ -17,9 +17,9 @@ export default function Info() {
               you can easily find your favorite game on the Rocket Play Casino
               new website.
             </p>
-          </li>
-          <span className={style.section__grid}>
-            <li>
+          </div>
+          <div className={style.section__grid}>
+            <div>
               <h2 className={`title ${style.section__title}`}>
                 Pokies: Casino Rocket FAQ
               </h2>
@@ -36,8 +36,8 @@ export default function Info() {
                 will not be able to get Rocket Casino no deposit bonus. As well
                 as withdraw money in case of winning in demo mode.
               </p>
-            </li>
-            <li>
+            </div>
+            <div>
               <h2 className={`title ${style.section__title}`}>
                 Bitcoin Games: Rocket Play Casino Codes
               </h2>
@@ -52,8 +52,8 @@ export default function Info() {
                 the uniqueness of cryptocurrency, your winnings can constantly
                 increase due to the changing exchange rate of cryptocurrencies.
               </p>
-            </li>
-            <li>
+            </div>
+            <div>
               <h2 className={`title ${style.section__title}`}>
                 Live Casino: Rocket Play Casino Bonus
               </h2>
@@ -69,8 +69,8 @@ export default function Info() {
                 Play Casino promo code and get additional benefits, game money
                 and free spins.
               </p>
-            </li>
-            <li>
+            </div>
+            <div>
               <h2 className={`title ${style.section__title}`}>
                 Casino Rocket Poker{" "}
               </h2>
@@ -85,8 +85,8 @@ export default function Info() {
                 atmosphere of this casino and fair winnings, you will definitely
                 be satisfied.
               </p>
-            </li>
-            <li>
+            </div>
+            <div>
               <h2 className={`title ${style.section__title}`}>
                 Table Games: Casino Rocket Slots
               </h2>
@@ -100,8 +100,8 @@ export default function Info() {
                 at. Depending on the level of training and bets, you can win
                 impressive winnings.
               </p>
-            </li>
-            <li>
+            </div>
+            <div>
               <h2 className={`title ${style.section__title}`}>
                 Jackpots: Casino Rocket No Deposit Bonus Codes
               </h2>
@@ -116,9 +116,9 @@ export default function Info() {
                 winning is always present. You just need a little luck and
                 patience. And most importantly - learn to enjoy gambling.
               </p>
-            </li>
-          </span>
-        </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

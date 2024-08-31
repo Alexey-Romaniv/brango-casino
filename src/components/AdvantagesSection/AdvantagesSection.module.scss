@@ -18,6 +18,9 @@
 }
 .section__mainTitle {
   font-size: 24px;
+    @media screen and (min-width: 1200px) {
+   font-size: 56px;
+  }
 }
 .adv__list {
   list-style-type: disc;

@@ -17,7 +17,7 @@ export default function AdvantagesSection() {
               Australia.
             </p>
           </div>
-          <span className={style.section__grid}>
+          <div className={style.section__grid}>
             <div>
               <h2 className={`title ${style.section__title}`}>Advantages</h2>
               <ul className={style.adv__list}>
@@ -38,7 +38,7 @@ export default function AdvantagesSection() {
                 <li>application not for all OS</li>
               </ul>
             </div>
-          </span>
+          </div>
         </div>
       </div>
     </section>

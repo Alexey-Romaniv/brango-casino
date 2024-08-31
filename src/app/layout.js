@@ -126,18 +126,8 @@ export default function RootLayout({ children }) {
         <meta name="twitter:image:width" content="1200" />
         <meta name="twitter:image:height" content="630" />
         <meta name="next-size-adjust" content="auto" />
-        <link
-          rel="preload"
-          href="/images/hero-img.webp"
-          as="image"
-          fetchPriority="high"
-        />
-        <link
-          rel="preload"
-          href="/images/hero-mob.webp"
-          as="image"
-          fetchPriority="high"
-        />
+        <link rel="preload" href="/images/hero-img.webp" as="image" />
+        <link rel="preload" href="/images/hero-mob.webp" as="image" />
       </head>
       <body>
         <div className="body-wrapper">
