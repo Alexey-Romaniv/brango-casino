@@ -151,6 +151,7 @@
 }
 .burgerMenu__active .burgerMenu__lines::after {
   top: 0;
+
   -webkit-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
@@ -159,6 +160,7 @@
 .burgerMenu__nav {
   padding-top: 123px;
   position: fixed;
+  opacity: 0;
   top: 0;
   z-index: 3;
   display: -webkit-box;
@@ -179,9 +181,10 @@
   right: -100%;
   -webkit-transition: 0.8s;
   -o-transition: 0.8s;
-  transition: 0.8s;
+  transition: all 0.8s ease-in-out;
 
   @media screen and (min-width: 1024px) {
+    opacity: 1;
     position: static;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -194,9 +197,10 @@
 }
 .burgerMenu__active .burgerMenu__nav {
   right: 0;
+  opacity: 1;
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
-  transition: 0.4s;
+  transition: all 0.4s ease-in-out;
 }
 .burger-menu_link {
   padding: 18px 35px;

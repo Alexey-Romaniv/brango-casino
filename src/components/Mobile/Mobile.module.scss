@@ -12,12 +12,29 @@
 
   @media screen and (min-width: 510px) {
     width: 70%;
+	 & + p {
+		width: 75%;
+	 }
   }
   @media screen and (min-width: 577px) {
     width: 65%;
+	 	 & + p {
+		width: 70%;
+	 }
+  }
+    @media screen and (min-width: 600px) {
+	 	 & + p {
+		width: 75%;
+	 }
+  }
+    @media screen and (min-width: 1024px) {
+    font-size: 40px;
+	 width: 85%;
+	  	 & + p {
+		width: 100%;
+	 }
   }
   @media screen and (min-width: 1200px) {
-    font-size: 40px;
     width: 85%;
     margin-bottom: 48px;
   }
