@@ -18,8 +18,8 @@ export default function Mobile({ firstId }) {
           <div className={style.linkList}>
             <a href={`/casino/${firstId}`}>
               <Image
-                src="/images/appstore.webp"
-                alt="appstore"
+                src="/images/googleplay.webp"
+                alt="googleplay"
                 loading="lazy"
                 width={168}
                 height={50}
@@ -28,8 +28,8 @@ export default function Mobile({ firstId }) {
             </a>
             <a href={`/casino/${firstId}`}>
               <Image
-                src="/images/googleplay.webp"
-                alt="googleplay"
+                src="/images/appstore.webp"
+                alt="appstore"
                 loading="lazy"
                 width={168}
                 height={50}

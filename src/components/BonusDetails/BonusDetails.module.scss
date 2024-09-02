@@ -9,7 +9,7 @@
   font-weight: bold;
 }
 .list {
-  margin-bottom: 68px;
+  margin-bottom: 48px;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -19,6 +19,7 @@
   }
   @media screen and (min-width: 1200px) {
     gap: 24px;
+    margin-bottom: 68px;
   }
   & li {
     display: grid;

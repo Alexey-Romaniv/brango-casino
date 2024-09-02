@@ -22,13 +22,16 @@
 .listDesk {
   display: -ms-grid;
   display: grid;
-  gap: 40px;
+  gap: 16px;
 
   & li {
     position: relative;
     display: -ms-grid;
     display: grid;
     gap: 8px;
+  }
+  @media screen and (min-width: 1024px) {
+    gap: 40px;
   }
 }
 
@@ -58,10 +61,10 @@
 .listDeskOptions {
   display: -ms-grid;
   display: grid;
-  gap: 8px;
+  gap: 4px;
   & span {
     font-size: 12px;
-    padding: 0 8px 8px;
+    padding: 0 4px 4px;
     @media screen and (min-width: 340px) {
       font-size: 14px;
     }

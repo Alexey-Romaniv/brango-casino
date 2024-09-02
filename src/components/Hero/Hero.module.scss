@@ -8,7 +8,7 @@
   background-position: top 93px right 50%;
   background-repeat: no-repeat;
   @media screen and (min-width: 576px) {
-    padding: 420px 0 120px;
+    padding: 520px 0 120px;
     background-size: 576px 420px;
     background-position: top 63px right 50%;
   }
@@ -86,7 +86,8 @@
     margin-bottom: 48px;
   }
 }
-.button {
+.wrapper .button {
+  width: 280px;
   @media screen and (min-width: 1200px) {
     width: 311px;
     height: 87px;
