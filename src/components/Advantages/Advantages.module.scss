@@ -69,6 +69,11 @@
     align-items: center;
     gap: 16px;
   }
+  & li p {
+    @media screen and (min-width: 1024px) {
+      font-size: 24px;
+    }
+  }
 }
 .appBox {
   display: -webkit-box;
@@ -78,6 +83,14 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+}
+.button {
+  width: 267px;
+  height: 77px;
+  @media screen and (min-width: 1024px) {
+    width: 296px;
+    height: 87px;
+  }
 }
 .appBoxMain {
   display: -webkit-box;

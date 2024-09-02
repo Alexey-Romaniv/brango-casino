@@ -16,7 +16,7 @@ export default function Advantages({ firstId }) {
                 width={30}
                 height={30}
               />
-              Diverse gaming options
+              <p>Diverse gaming options</p>
             </li>
             <li>
               <Image
@@ -26,7 +26,7 @@ export default function Advantages({ firstId }) {
                 width={30}
                 height={30}
               />
-              Frequent promotions
+              <p>Frequent promotions</p>
             </li>
             <li>
               <Image
@@ -36,7 +36,7 @@ export default function Advantages({ firstId }) {
                 width={30}
                 height={30}
               />
-              Multiple dining venues
+              <p>Multiple dining venues</p>
             </li>
             <li>
               <Image
@@ -46,7 +46,7 @@ export default function Advantages({ firstId }) {
                 width={30}
                 height={30}
               />
-              Live entertainment and events
+              <p>Live entertainment and events</p>
             </li>
             <li>
               <Image
@@ -56,10 +56,14 @@ export default function Advantages({ firstId }) {
                 width={30}
                 height={30}
               />
-              Central location
+              <p>Central location</p>
             </li>
           </ul>
-          <Button href={`/casino/${firstId}`} size="big">
+          <Button
+            href={`/casino/${firstId}`}
+            size="big"
+            className={style.button}
+          >
             Know more
           </Button>
         </div>

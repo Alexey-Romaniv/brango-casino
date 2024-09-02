@@ -12,10 +12,18 @@
 }
 .title__small {
   font-size: 24px;
+  @media screen and (min-width: 1024px) {
+    font-size: 40px;
+    margin-bottom: 24px;
+  }
 }
 .pay__list {
   padding-left: 20px;
   list-style-type: disc;
+}
+.steps {
+  list-style: decimal;
+  padding-left: 20px;
 }
 .adventList {
   margin-left: 32px;

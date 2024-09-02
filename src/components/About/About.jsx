@@ -10,9 +10,15 @@ export default function About() {
             <div>
               <h1 className="title">Rocket Casino</h1>
               <ul className={style.adventList}>
-                <li>generous bonuses</li>
-                <li>more than 1000 gambling games</li>
-                <li>24/7 technical support</li>
+                <li>
+                  <p>generous bonuses</p>
+                </li>
+                <li>
+                  <p>more than 1000 gambling games</p>
+                </li>
+                <li>
+                  <p>24/7 technical support</p>
+                </li>
               </ul>
               <br />
               <p>
@@ -58,15 +64,32 @@ export default function About() {
               If you decide to choose Casino Rocket login using email, then you
               will have to go through the following steps:
             </p>
-            <ol>
-              <li>Go to the site.</li>
-              <li>Fill out a special form at the top left on the main page.</li>
-              <li>Enter a valid email</li>
-              <li>Come up with a strong password.</li>
-              <li>Select a country from the list.</li>
-              <li>Select your preferred game currency.</li>
-              <li>Agree to the terms of use.</li>
-              <li>Click on the account creation button.</li>
+            <br />
+            <ol className={style.steps}>
+              <li>
+                <p>Go to the site.</p>
+              </li>
+              <li>
+                <p>Fill out a special form at the top left on the main page.</p>
+              </li>
+              <li>
+                <p>Enter a valid email.</p>
+              </li>
+              <li>
+                <p>Come up with a strong password.</p>
+              </li>
+              <li>
+                <p>Select a country from the list.</p>
+              </li>
+              <li>
+                <p>Select your preferred game currency.</p>
+              </li>
+              <li>
+                <p>Agree to the terms of use.</p>
+              </li>
+              <li>
+                <p>Click on the account creation button.</p>
+              </li>
             </ol>
             <br />
             <br />
@@ -108,17 +131,39 @@ export default function About() {
             </p>
             <br />
             <ul className={style.pay__list}>
-              <li>Visa</li>
-              <li>Mastercard</li>
-              <li>Neosurf</li>
-              <li>Skrill</li>
-              <li>Bank Transfer</li>
-              <li>Bitcoin</li>
-              <li>Litecoin</li>
-              <li>Rapid</li>
-              <li>Paysafe</li>
-              <li>MiFinity</li>
-              <li>Jetone, etc.</li>
+              <li>
+                <p>Visa</p>
+              </li>
+              <li>
+                <p>Mastercard</p>
+              </li>
+              <li>
+                <p>Neosurf</p>
+              </li>
+              <li>
+                <p>Skrill</p>
+              </li>
+              <li>
+                <p>Bank Transfer</p>
+              </li>
+              <li>
+                <p>Bitcoin</p>
+              </li>
+              <li>
+                <p>Litecoin</p>
+              </li>
+              <li>
+                <p>Rapid</p>
+              </li>
+              <li>
+                <p>Paysafe</p>
+              </li>
+              <li>
+                <p>MiFinity</p>
+              </li>
+              <li>
+                <p>Jetone, etc.</p>
+              </li>
             </ul>
             <br />
             <p>

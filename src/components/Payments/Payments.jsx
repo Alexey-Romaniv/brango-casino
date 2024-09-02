@@ -12,7 +12,7 @@ export default function Payments({ firstId }) {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          "https://api.adkey-seo.com/api/website/get-payments/294"
+          "https://api.adkey-seo.com/api/website/get-payments/471"
         );
         const loadData = await response.json();
         setData(loadData);

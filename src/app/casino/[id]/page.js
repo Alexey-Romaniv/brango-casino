@@ -12,7 +12,7 @@ const Offer = ({ params }) => {
     const fetchData = async () => {
       try {
         const { data } = await axios.get(
-          "https://api.adkey-seo.com/api/website/get-website/294"
+          "https://api.adkey-seo.com/api/website/get-website/471"
         );
         if (data && data.offers) {
           setOffers(data.offers);
