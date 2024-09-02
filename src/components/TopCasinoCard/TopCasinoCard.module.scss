@@ -7,17 +7,22 @@
   width: 100%;
   padding: 16px;
   border: 2px solid #f6f2ff;
+
   border-radius: 8px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   gap: 16px;
   background-color: $card-bg-color;
   text-align: center;
+
+  & p {
+    line-height: normal;
+  }
   @media screen and (min-width: 576px) {
     padding: 32px 24px;
     min-width: 260px;

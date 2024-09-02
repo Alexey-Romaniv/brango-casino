@@ -23,6 +23,7 @@ export default function Mobile({ firstId }) {
                 loading="lazy"
                 width={168}
                 height={50}
+                className={style.linkImg}
               />
             </a>
             <a href={`/casino/${firstId}`}>
@@ -32,6 +33,7 @@ export default function Mobile({ firstId }) {
                 loading="lazy"
                 width={168}
                 height={50}
+                className={style.linkImg}
               />
             </a>
           </div>
@@ -41,8 +43,8 @@ export default function Mobile({ firstId }) {
           src="/images/img-phone.webp"
           alt="Rocket Casino phone"
           loading="lazy"
-          width={312}
-          height={527}
+          width={605}
+          height={667}
         />
       </div>
       <div className="container">

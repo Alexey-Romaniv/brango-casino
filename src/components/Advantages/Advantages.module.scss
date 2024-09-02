@@ -70,9 +70,14 @@
     gap: 16px;
   }
   & li p {
+    line-height: normal;
     @media screen and (min-width: 1024px) {
       font-size: 24px;
     }
+  }
+  @media screen and (min-width: 1024px) {
+    gap: 40px;
+    margin-bottom: 40px;
   }
 }
 .appBox {
@@ -164,6 +169,11 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+    & a img,
+    & a {
+      width: 181px;
+      height: 53px;
+    }
   }
 }
 @media screen and (min-width: 1120px) {

@@ -113,7 +113,7 @@ a {
   font-weight: 900;
   text-transform: uppercase;
   margin-bottom: 40px;
-  line-height: 1;
+  line-height: normal;
   color: $third-text-color;
   @media screen and (min-width: 1024px) {
     font-size: 56px;

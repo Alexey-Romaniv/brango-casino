@@ -33,13 +33,13 @@
   max-width: 1440px;
   z-index: 2;
   & p {
-    line-height: 1;
+    line-height: normal;
   }
   @media screen and (min-width: 576px) {
     padding: 0 40px;
   }
   @media screen and (min-width: 1440px) {
-    padding: 0 160px;
+    padding: 0 140px;
   }
 }
 .title {
@@ -50,7 +50,7 @@
   font-size: 40px;
   font-weight: 900;
   text-transform: uppercase;
-  line-height: 1;
+  line-height: normal;
   background: -webkit-gradient(
     linear,
     left top,
@@ -84,5 +84,11 @@
   @media screen and (min-width: 768px) {
     font-size: 32px;
     margin-bottom: 48px;
+  }
+}
+.button {
+  @media screen and (min-width: 1200px) {
+    width: 311px;
+    height: 87px;
   }
 }
