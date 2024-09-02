@@ -18,9 +18,15 @@ export default function Support() {
             <br />
             <p>There are several options for contacting its support:</p>
             <ul className={style.list}>
-              <li>e-mail</li>
-              <li>social networks</li>
-              <li>FAQ</li>
+              <li>
+                <p>e-mail</p>
+              </li>
+              <li>
+                <p>social networks</p>
+              </li>
+              <li>
+                <p>FAQ</p>
+              </li>
             </ul>
             <br />
             <p>

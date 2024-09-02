@@ -13,10 +13,22 @@ export default function FAQItem({ item }) {
     <>
       <p className={style.question} onClick={handleOpen}>
         {isOpen ? (
-          <Image src="/images/minus.svg" width={24} height={24} alt="minus" />
+          <Image
+            className={style.img}
+            src="/images/minus.svg"
+            width={24}
+            height={24}
+            alt="minus"
+          />
         ) : (
-          <Image src="/images/plus.svg" width={24} height={24} alt="plus" />
-        )}{" "}
+          <Image
+            className={style.img}
+            src="/images/plus.svg"
+            width={24}
+            height={24}
+            alt="plus"
+          />
+        )}
         <span>{item.q}</span>
       </p>
       {isOpen && <p className={style.answer}>{item.a}</p>}

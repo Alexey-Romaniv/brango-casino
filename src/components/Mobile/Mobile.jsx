@@ -4,7 +4,7 @@ export default function Mobile({ firstId }) {
   return (
     <section className={`section ${style.mobileSection}`} id="mobile">
       <div className={`container ${style.wrapper}`}>
-        <div className="">
+        <div className="top">
           <h2 className={`title ${style.section__mainTitle}`}>
             App: Rocket Casino Mobile
           </h2>

@@ -112,6 +112,9 @@ a.btn.btn__green {
 
     & li:not(:first-of-type) {
       border: 2px solid #f6f2ff;
+      & span {
+        font-size: 20px;
+      }
     }
     & li {
       display: -ms-grid;

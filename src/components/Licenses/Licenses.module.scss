@@ -19,6 +19,7 @@
   }
   @media screen and (min-width: 1024px) {
     font-size: 40px;
+    margin-bottom: 24px;
   }
 }
 .box {
@@ -27,7 +28,7 @@
   align-items: center;
   @media screen and (min-width: 1024px) {
     grid-template-areas:
-      "a a a b"
+      "a a b b"
       "c c d d";
 
     align-items: start;
@@ -38,6 +39,10 @@
     }
     & div:nth-of-type(2) {
       grid-area: b;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
     }
     & div:nth-of-type(3) {
       grid-area: c;
@@ -49,8 +54,6 @@
   & img {
     width: 240px;
     height: auto;
-    margin: auto;
-    margin-top: 61px;
     @media screen and (max-width: 1023px) {
       margin: 0 auto;
       width: 160px;

@@ -19,6 +19,7 @@
   padding: 8px 16px;
   font-size: 18px;
   font-weight: bold;
+  line-height: 1;
   border-radius: 8px;
   border: 2px solid #f6f2ff;
   background-color: #7a13b8;
@@ -34,6 +35,10 @@
   align-items: center;
   gap: 16px;
   cursor: pointer;
+  @media screen and (min-width: 1200px) {
+    padding: 8px 32px;
+    gap: 24px;
+  }
 }
 .answer {
   padding: 10px 0 24px;
@@ -41,11 +46,20 @@
   text-align: left;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .question {
     font-size: 24px;
   }
   .answer {
     font-size: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section__title {
+    margin-bottom: 24px;
+  }
+  .img {
+    width: 32px;
+    height: 32px;
   }
 }

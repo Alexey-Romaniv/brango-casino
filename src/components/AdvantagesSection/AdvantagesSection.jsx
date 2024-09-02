@@ -21,21 +21,41 @@ export default function AdvantagesSection() {
             <div>
               <h2 className={`title ${style.section__title}`}>Advantages</h2>
               <ul className={style.adv__list}>
-                <li>range of games</li>
-                <li>generous bonuses</li>
-                <li>many promotions</li>
-                <li>constant tournaments</li>
-                <li>large prize pools</li>
-                <li>live casino</li>
-                <li>different payment systems</li>
-                <li>large selection of providers</li>
+                <li>
+                  <p>range of games</p>
+                </li>
+                <li>
+                  <p>generous bonuses</p>
+                </li>
+                <li>
+                  <p>many promotions</p>
+                </li>
+                <li>
+                  <p>constant tournaments</p>
+                </li>
+                <li>
+                  <p>large prize pools</p>
+                </li>
+                <li>
+                  <p>live casino</p>
+                </li>
+                <li>
+                  <p>different payment systems</p>
+                </li>
+                <li>
+                  <p>large selection of providers</p>
+                </li>
               </ul>
             </div>
             <div>
               <h2 className={`title ${style.section__title}`}>Disadvantages</h2>
               <ul className={style.adv__list}>
-                <li>no online chat</li>
-                <li>application not for all OS</li>
+                <li>
+                  <p>no online chat</p>
+                </li>
+                <li>
+                  <p>application not for all OS</p>
+                </li>
               </ul>
             </div>
           </div>

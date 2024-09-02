@@ -27,7 +27,7 @@ export default function FAQ() {
   return (
     <section className={`section ${style.section__faq}`}>
       <div className="container">
-        <h2 className="title">FAQ</h2>
+        <h2 className={`title ${style.section__title}`}>FAQ</h2>
         <ul className={style.list}>
           {questionList.map((i) => {
             return (

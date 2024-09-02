@@ -16,6 +16,11 @@
   @media screen and (min-width: 577px) {
     width: 65%;
   }
+  @media screen and (min-width: 1200px) {
+    font-size: 40px;
+    width: 85%;
+    margin-bottom: 48px;
+  }
 }
 .section__title {
   font-size: 18px;
@@ -33,9 +38,9 @@
   gap: 55px;
   & p {
     margin-bottom: 40px;
-  }
-  & p:first-of-type {
-    width: 80%;
+    @media screen and (min-width: 1200px) {
+      margin-bottom: 48px;
+    }
   }
 }
 .linkList {
@@ -74,7 +79,7 @@
 }
 @media screen and (min-width: 1024px) {
   .wrapper {
-    grid-template-columns: 65% 35%;
+    grid-template-columns: 50% 50%;
     align-items: end;
     margin-bottom: 0;
   }

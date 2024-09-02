@@ -9,12 +9,17 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   gap: 48px;
+  & > div {
+    @media screen and (min-width: 1024px) {
+      width: 50%;
+    }
+  }
 }
 .list {
   list-style-type: disc;
@@ -27,7 +32,7 @@
     display: block;
     width: 280px;
   }
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 1200px) {
     width: 420px;
   }
 }

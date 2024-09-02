@@ -7,7 +7,7 @@ export default function Licenses() {
       <div className="container">
         <div className={style.box}>
           <div>
-            <h2 className="title">
+            <h2 className={`title ${style.section__title}`}>
               Licenses: Rocket Play Casino No Deposit Bonus Codes 2022
             </h2>
             <p>
