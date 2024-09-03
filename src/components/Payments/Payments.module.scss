@@ -53,10 +53,13 @@
   display: grid;
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
-  padding: 16px;
+  padding: 8px 16px;
   border-radius: 8px;
   border: 2px solid #f6f2ff;
   background-color: $card-bg-color;
+  @media screen and (min-width: 1024px) {
+    padding: 16px;
+  }
 }
 .listDeskOptions {
   display: -ms-grid;
@@ -91,8 +94,8 @@ a.btn.btn__green {
   width: 150px;
   max-width: 217px;
   @media screen and (min-width: 450px) {
-    min-width: 217px;
-    width: 217px;
+    min-width: 200px;
+    width: 200px;
   }
   @media screen and (min-width: 1024px) {
     position: relative;

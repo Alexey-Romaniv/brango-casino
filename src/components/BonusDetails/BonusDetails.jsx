@@ -35,7 +35,7 @@ export default function BonusDetails({ offers }) {
     return randomElements;
   }
   return (
-    <section className="section" id="bonuses">
+    <section className={`section ${style.sectionBonus}`} id="bonuses">
       <div className="container">
         <h2 className="title">BONUS DETAILS</h2>
         <ul className={style.list}>
@@ -44,7 +44,9 @@ export default function BonusDetails({ offers }) {
             <span>Bonuses</span>
             <span>Rate</span>
             <span>Free spins</span>
-            <span>More info</span>
+            <span>
+              More <br /> info
+            </span>
             <span>Get</span>
           </li>
           {randomList.map((i, index) => {
@@ -56,7 +58,7 @@ export default function BonusDetails({ offers }) {
           })}
         </ul>
         <button
-          className={`${btnStyle.btn} ${btnStyle.big} ${btnStyle.center}`}
+          className={` ${btnStyle.btn} ${btnStyle.big} ${btnStyle.center}`}
           onClick={setList}
         >
           Refresh

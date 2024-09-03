@@ -39,11 +39,11 @@
     background-color: rgba(0, 0, 0, 0.2);
     position: absolute;
     top: 8px;
-    right: 0px;
+    right: -2px;
   }
 
   @media screen and (max-width: 1199px) {
-    grid-template-columns: 30% 25% 25% 20%;
+    grid-template-columns: 35% 22% 22% 21%;
   }
   @media screen and (min-width: 1200px) {
     & span {
@@ -73,8 +73,6 @@
   overflow: hidden;
 
   &.isOpen {
-    margin-top: 16px;
-    margin-bottom: 16px;
     max-height: 700px;
     @media screen and (min-width: 1024px) {
       margin-top: 0px;
@@ -85,7 +83,7 @@
     padding: 8px;
     border-bottom: 1px solid $card-bg-color;
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 35% 65%;
     text-align: left;
     color: $third-text-color;
     font-size: 18px;
@@ -119,13 +117,12 @@
   & > div {
     margin-right: 0;
     margin-left: auto;
-    margin-top: 16px;
-    margin-bottom: 24px;
-    padding: 10px 0;
+    margin-top: 24px;
+    margin-bottom: 8px;
     .btn {
-      width: 200px;
+      width: 221px;
       height: 54px;
-
+      margin-bottom: 0;
       font-size: 18px;
     }
   }

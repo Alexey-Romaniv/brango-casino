@@ -6,10 +6,11 @@
   background-repeat: no-repeat;
   padding-top: 40px;
   padding-bottom: 40px;
-  padding-left: 35px;
+
   & .advantages__title {
     font-size: 20px;
     margin-bottom: 24px;
+    padding-left: 24px;
   }
   @media screen and (min-width: 400px) {
     & .advantages__title {
@@ -24,6 +25,7 @@
       font-size: 40px;
       margin-bottom: 40px;
       width: 330px;
+      padding-left: 0;
 
       line-height: normal;
     }
@@ -53,6 +55,7 @@
   background-color: $accent-color;
 }
 .advlist {
+  padding-left: 24px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -60,7 +63,7 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
   margin-bottom: 64px;
   & li {
     display: -webkit-box;
@@ -80,6 +83,7 @@
   @media screen and (min-width: 1024px) {
     gap: 40px;
     margin-bottom: 40px;
+    padding-left: 0;
   }
 }
 .appBox {
@@ -112,7 +116,7 @@
   justify-content: space-between;
 }
 .appPhoneImg {
-  margin: 0 auto 66px;
+  margin: 0 auto 38px;
   height: auto;
   @media screen and (min-width: 1024px) {
     display: none;
