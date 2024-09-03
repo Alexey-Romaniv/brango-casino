@@ -3,7 +3,7 @@
 .card {
   height: 100%;
   min-width: 240px;
-  max-width: 260px;
+  max-width: 240px;
   width: 100%;
   padding: 16px;
   border: 2px solid #f6f2ff;
@@ -23,32 +23,41 @@
   & p {
     line-height: normal;
   }
-  @media screen and (min-width: 576px) {
-    padding: 32px 24px;
+  & .btn {
+    width: 202px;
+  }
+  @media screen and (min-width: 1024px) {
+    padding: 32px 22px;
     min-width: 260px;
+    max-width: 260px;
   }
 }
 .card__logo {
   width: 160px;
-  height: 64px;
+  height: 60px;
   margin: 0 auto;
-  @media screen and (min-width: 576px) {
+  @media screen and (min-width: 1024px) {
     width: 190px;
     height: 76px;
   }
 }
 .card__name {
+  display: none;
   color: $third-text-color;
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-weight: 700;
+  @media screen and (min-width: 1024px) {
+    display: block;
+  }
 }
 .card__title {
   color: $text-color;
   font-family: "Roboto", sans-serif;
   font-size: 24px;
   font-weight: 500;
+  margin-top: -8px;
 }
 
 .bonus {
@@ -58,7 +67,8 @@
   font-size: 16px;
   font-weight: 500;
   margin-bottom: auto;
-  @media screen and (min-width: 576px) {
+  margin-top: -8px;
+  @media screen and (min-width: 1024px) {
     font-size: 20px;
   }
 }

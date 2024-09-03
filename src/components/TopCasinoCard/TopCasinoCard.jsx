@@ -17,7 +17,12 @@ export default function TopCasinoCard({ data }) {
       <h3 className={style.card__name}>{name}</h3>
       <p className={style.card__title}>Welcome Bonus</p>
       <p className={style.bonus}>{bonuses.welcome_bonus}</p>
-      <Button size="small" color="second" href={`/casino/${id}`}>
+      <Button
+        className={style.btn}
+        size="small"
+        color="second"
+        href={`/casino/${id}`}
+      >
         Claim Bonus
       </Button>
     </div>
