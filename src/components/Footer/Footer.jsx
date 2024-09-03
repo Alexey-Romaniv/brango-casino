@@ -4,14 +4,14 @@ export default function Footer() {
   return (
     <footer className={style.footer}>
       <div className={`container ${style.wrapper}`}>
-        <div className={style.footerLogo}>
+        <a href="/#main" className={style.footerLogo}>
           <Image
             src="/images/logo.svg"
             alt="Rocket Casino logo"
             width={114}
             height={44}
           />
-        </div>
+        </a>
         <div>
           <ul className={`${style.footerList} ${style.listPayment}`}>
             <li className={style.footerItem}>
@@ -21,7 +21,7 @@ export default function Footer() {
                 alt="Mastercard"
                 width={92}
                 height={52}
-					 loading="lazy"
+                loading="lazy"
               />
               <Image
                 className={style.imgHover}
@@ -39,7 +39,7 @@ export default function Footer() {
                 alt="Visa"
                 width={161}
                 height={52}
-					 loading="lazy"
+                loading="lazy"
               />
               <Image
                 className={style.imgHover}
@@ -57,7 +57,7 @@ export default function Footer() {
                 alt="Neteller"
                 width={288}
                 height={52}
-					 loading="lazy"
+                loading="lazy"
               />
               <Image
                 className={style.imgHover}
@@ -75,7 +75,7 @@ export default function Footer() {
                 alt="Skrill"
                 width={157}
                 height={52}
-					 loading="lazy"
+                loading="lazy"
               />
               <Image
                 className={style.imgHover}
@@ -83,7 +83,7 @@ export default function Footer() {
                 alt="Skrill"
                 width={157}
                 height={52}
-					 loading="lazy"
+                loading="lazy"
               />
             </li>
             <li className={style.footerItem}>
@@ -93,7 +93,7 @@ export default function Footer() {
                 alt="Bitcoin"
                 width={54}
                 height={52}
-					 loading="lazy"
+                loading="lazy"
               />
               <Image
                 className={style.imgHover}
@@ -111,7 +111,7 @@ export default function Footer() {
                 alt="LiteCoin"
                 width={49}
                 height={52}
-					 loading="lazy"
+                loading="lazy"
               />
               <Image
                 className={style.imgHover}
@@ -129,7 +129,7 @@ export default function Footer() {
                 alt="paymant-logo"
                 width={32}
                 height={52}
-					 loading="lazy"
+                loading="lazy"
               />
               <Image
                 className={style.imgHover}
@@ -150,7 +150,7 @@ export default function Footer() {
                 alt="GPWA"
                 width={150}
                 height={58}
-					 loading="lazy"
+                loading="lazy"
               />
               <Image
                 className={style.imgHover}
@@ -168,7 +168,7 @@ export default function Footer() {
                 alt="gambleA"
                 width={207}
                 height={58}
-					 loading="lazy"
+                loading="lazy"
               />
               <Image
                 className={style.imgHover}
@@ -186,7 +186,7 @@ export default function Footer() {
                 alt="GamCare"
                 width={207}
                 height={58}
-					 loading="lazy"
+                loading="lazy"
               />
               <Image
                 className={style.imgHover}
@@ -204,7 +204,7 @@ export default function Footer() {
                 alt="Gambling therapy"
                 width={207}
                 height={58}
-					 loading="lazy"
+                loading="lazy"
               />
               <Image
                 className={style.imgHover}
@@ -222,7 +222,7 @@ export default function Footer() {
                 alt="Gamban"
                 width={207}
                 height={58}
-					 loading="lazy"
+                loading="lazy"
               />
               <Image
                 className={style.imgHover}
@@ -240,7 +240,7 @@ export default function Footer() {
                 alt="BetBlocker"
                 width={353}
                 height={58}
-					 loading="lazy"
+                loading="lazy"
               />
               <Image
                 className={style.imgHover}
@@ -258,7 +258,7 @@ export default function Footer() {
                 alt="iTech Labs"
                 width={58}
                 height={58}
-					 loading="lazy"
+                loading="lazy"
               />
               <Image
                 className={style.imgHover}
@@ -276,7 +276,7 @@ export default function Footer() {
                 alt="eCOGRA"
                 width={193}
                 height={58}
-					 loading="lazy"
+                loading="lazy"
               />
               <Image
                 className={style.imgHover}

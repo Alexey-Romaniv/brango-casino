@@ -26,7 +26,7 @@ export default function Header() {
     <header className={style.header}>
       <div className={`${style.header__container}`}>
         <div className={style.logo__box}>
-          <a href="/">
+          <Link href="/#main" aria-label="to main">
             <Image
               src="/images/logo.svg"
               alt="Rocket Casino logo"
@@ -34,7 +34,7 @@ export default function Header() {
               width={114}
               height={44}
             />
-          </a>
+          </Link>
         </div>
         <div className={`${isOpen ? style.burgerMenu__active : ""}`}>
           <button

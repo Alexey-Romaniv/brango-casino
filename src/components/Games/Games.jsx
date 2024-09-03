@@ -67,7 +67,7 @@ export default function Games({ firstId }) {
               );
             })}
           </ul>
-          <Button href={`/casino/${firstId}`} size="big" center>
+          <Button className={style.btnGames} href={`/casino/${firstId}`} size="big" center>
             All games
           </Button>
         </div>

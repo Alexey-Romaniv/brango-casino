@@ -43,7 +43,7 @@ export default function BonusDetails({ offers }) {
             <span>Casino</span>
             <span>Bonuses</span>
             <span>Rate</span>
-            <span>Free spins</span>
+            <span className={style.freeSpin}>Free spins</span>
             <span>
               More <br /> info
             </span>
@@ -58,7 +58,7 @@ export default function BonusDetails({ offers }) {
           })}
         </ul>
         <button
-          className={` ${btnStyle.btn} ${btnStyle.big} ${btnStyle.center}`}
+          className={`${style.btnBonus} ${btnStyle.btn} ${btnStyle.big} ${btnStyle.center}`}
           onClick={setList}
         >
           Refresh

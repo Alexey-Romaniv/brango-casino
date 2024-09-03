@@ -27,7 +27,7 @@ export default function TopCasino({ offers, country }) {
         </ul>
         {offers?.length > 8 && !showAll && (
           <button
-            className={`${btnStyle.btn} ${btnStyle.big} ${btnStyle.center}`}
+            className={`${style.btn} ${btnStyle.btn} ${btnStyle.big} ${btnStyle.center}`}
             onClick={() => setShowAll(true)}
           >
             All Casino

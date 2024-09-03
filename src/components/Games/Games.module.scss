@@ -94,7 +94,16 @@
     height: 100%;
   }
 }
-
+.btnGames {
+  width: 240px;
+  height: 77px;
+  @media screen and (min-width: 1024px) {
+    width: 280px;
+    min-width: 280px;
+    max-width: 280px;
+    height: 87px;
+  }
+}
 .cardBack {
   border: 2px solid #f6f2ff;
   width: 100%;

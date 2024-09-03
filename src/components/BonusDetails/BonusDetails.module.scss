@@ -1,7 +1,10 @@
 @import "../../styles/vars";
 
-.section {
-  padding: 0 0 200px;
+.sectionBonus {
+  padding: 0 0 96px;
+  @media screen and (min-width: 1024px) {
+    padding: 0 0 140px;
+  }
 }
 .title {
   margin-bottom: 40px;
@@ -48,6 +51,24 @@
     top: -17px;
     right: 4px;
   }
+  & + button.btnBonus {
+    display: block;
+    width: 240px !important;
+    min-width: 240px;
+    max-width: 240px;
+    height: 77px;
+    @media screen and (min-width: 1024px) {
+      width: 280px;
+      min-width: 280px;
+      max-width: 280px;
+      height: 87px;
+    }
+  }
+  .freeSpin {
+	display: block;
+	width: 100px;
+margin: 0 auto;
+  }
   @media screen and (min-width: 1200px) {
     & .headerRow span:not(:last-of-type):before {
       content: "";
@@ -71,7 +92,7 @@
     display: grid;
     column-gap: 1px;
     align-items: center;
-    grid-template-columns: 18% 20% 13% 13% 13% 21%;
+    grid-template-columns: 18.4% 21.4% 12.5% 12.5% 12.5% 22.7%;
     font-size: 21px;
     text-align: center;
 
