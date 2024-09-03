@@ -200,29 +200,28 @@ a {
 
 // NOT-FOUND PAGE
 .not-found__box {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  flex-grow: 1;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  min-height: 90vh;
+
   text-align: center;
+  & h2 {
+    font-size: 40px;
+  }
   & a {
-    margin-top: 16px;
-    display: inline-block;
-    color: $text-color;
-    background-color: $accent-color;
-    padding: 12px 32px;
-    border-radius: 8px;
-    border: 0;
-    outline: none;
+    margin: 0 auto;
   }
   @media screen and (min-width: 768px) {
     & h2 {
-      font-size: 60px;
+      font-size: 64px;
     }
     & p {
-      font-size: 32px;
+      font-size: 24px;
     }
   }
 }
