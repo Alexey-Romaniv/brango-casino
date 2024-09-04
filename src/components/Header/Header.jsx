@@ -52,9 +52,7 @@ export default function Header() {
             >
               <li>
                 <Link
-                  className={`${style.link} ${
-                    pathname === "/#main" ? style.active : ""
-                  }`}
+                  className={`${style.link}`}
                   href="/#main"
                   onClick={() => onLinkClick("main")}
                 >
@@ -63,9 +61,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  className={`${style.link} ${
-                    pathname === "/#games" ? style.active : ""
-                  }`}
+                  className={`${style.link}`}
                   href="/#games"
                   onClick={() => onLinkClick("games")}
                 >
@@ -74,9 +70,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  className={`${style.link} ${
-                    pathname === "/#bonuses" ? style.active : ""
-                  }`}
+                  className={`${style.link}`}
                   href="/#bonuses"
                   onClick={() => onLinkClick("bonuses")}
                 >
@@ -85,9 +79,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  className={`${style.link} ${
-                    pathname === "/#mobile" ? style.active : ""
-                  }`}
+                  className={`${style.link}`}
                   href="/#mobile"
                   onClick={() => onLinkClick("mobile")}
                 >
@@ -96,9 +88,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  className={`${style.link} ${
-                    pathname === "/#signin" ? style.active : ""
-                  }`}
+                  className={`${style.link}`}
                   href="/#signin"
                   onClick={() => onLinkClick("signin")}
                 >
