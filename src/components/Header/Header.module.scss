@@ -40,7 +40,7 @@
   -o-transition: all 200ms linear;
   transition: all 200ms linear;
 
-  @media screen {
+  @media screen and (min-width: 1024px) {
     font-size: 20px;
   }
 

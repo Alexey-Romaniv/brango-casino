@@ -43,7 +43,10 @@ export default function BonusDetails({ offers }) {
             <span>Casino</span>
             <span>Bonuses</span>
             <span>Rate</span>
-            <span className={style.freeSpin}>Free spins</span>
+            <span className={style.freeSpinMob}>Free spins</span>
+            <span className={style.freeSpinDesk}>
+              Free <br /> spins
+            </span>
             <span>
               More <br /> info
             </span>
