@@ -91,7 +91,7 @@
       background-color: rgba(255, 255, 255, 0.2);
       position: absolute;
       top: -17px;
-      right: -2px;
+      right: 0;
     }
     & .headerRow .freeSpinDesk:before,
     & .headerRow .freeSpinDesk + span:before {
@@ -102,7 +102,7 @@
       background-color: rgba(255, 255, 255, 0.2);
       position: absolute;
       top: 0;
-      right: -2px;
+      right: 0;
     }
   }
   & span:nth-child(-n + 2) {
@@ -112,7 +112,7 @@
     height: 88px;
     border-radius: 8px;
     background: linear-gradient(180deg, #ff0092 0%, #d2057b 100%);
-    padding: 0 8px;
+    padding: 0;
     display: grid;
     column-gap: 1px;
     align-items: center;

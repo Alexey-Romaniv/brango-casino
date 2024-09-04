@@ -77,6 +77,10 @@
     align-items: center;
     gap: 16px;
   }
+  & li img {
+	width: 30px;
+	height: auto;
+  }
   & li p {
     line-height: normal;
     @media screen and (min-width: 1024px) {

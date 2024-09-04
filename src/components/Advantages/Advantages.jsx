@@ -10,51 +10,51 @@ export default function Advantages({ firstId }) {
           <ul className={style.advlist}>
             <li>
               <Image
-                src="/images/star.svg"
+                src="/images/star.webp"
                 alt="star"
                 loading="lazy"
                 width={30}
-                height={30}
+                height={29}
               />
               <p>Diverse gaming options</p>
             </li>
             <li>
               <Image
-                src="/images/star.svg"
+                src="/images/star.webp"
                 alt="star"
                 loading="lazy"
                 width={30}
-                height={30}
+                height={29}
               />
               <p>Frequent promotions</p>
             </li>
             <li>
               <Image
-                src="/images/star.svg"
+                src="/images/star.webp"
                 alt="star"
                 loading="lazy"
                 width={30}
-                height={30}
+                height={29}
               />
               <p>Multiple dining venues</p>
             </li>
             <li>
               <Image
-                src="/images/star.svg"
+                src="/images/star.webp"
                 alt="star"
                 loading="lazy"
                 width={30}
-                height={30}
+                height={29}
               />
               <p>Live entertainment and events</p>
             </li>
             <li>
               <Image
-                src="/images/star.svg"
+                src="/images/star.webp"
                 alt="star"
                 loading="lazy"
                 width={30}
-                height={30}
+                height={29}
               />
               <p>Central location</p>
             </li>
