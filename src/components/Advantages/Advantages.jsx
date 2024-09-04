@@ -74,14 +74,21 @@ export default function Advantages({ firstId }) {
           </h2>
           <div className={style.appImgBox}>
             <Image
-              className={style.appPhoneImg}
+              className={`${style.appPhoneImg} ${style.appPhoneImgMob}`}
               src="/images/phone-mob.webp"
               alt="Rocket Casino phone"
               loading="lazy"
-              width={512}
-              height={487}
+              width={495}
+              height={460}
             />
-
+            <Image
+              className={`${style.appPhoneImg} ${style.appPhoneImgDesk}`}
+              src="/images/phone-desk.webp"
+              alt="Rocket Casino phone"
+              loading="lazy"
+              width={595}
+              height={426}
+            />
             <div className={style.linkList}>
               <a href={`/casino/${firstId}`}>
                 <Image

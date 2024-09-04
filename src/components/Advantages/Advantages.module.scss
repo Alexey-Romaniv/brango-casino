@@ -6,11 +6,14 @@
   background-repeat: no-repeat;
   padding-top: 40px;
   padding-bottom: 40px;
+  position: relative;
 
   & .advantages__title {
     font-size: 20px;
     margin-bottom: 24px;
     padding-left: 24px;
+    position: relative;
+    z-index: 1;
   }
   @media screen and (min-width: 400px) {
     & .advantages__title {
@@ -117,10 +120,28 @@
 }
 .appPhoneImg {
   margin: 0 auto 38px;
+  width: 495px;
   height: auto;
   @media screen and (min-width: 1024px) {
-    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 595px;
+    margin: 0;
+    z-index: 0;
   }
+}
+.appPhoneImgDesk {
+	display: none;
+	 @media screen and (min-width: 1024px) {
+		display: block;
+	  }
+}
+.appPhoneImgMob {
+	display: block;
+	 @media screen and (min-width: 1024px) {
+		display: none;
+	  }
 }
 .linkList {
   display: -webkit-box;
@@ -137,10 +158,10 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
-    background-image: url("/images/phone.webp");
-    background-repeat: no-repeat;
-    background-size: 643px 500px;
-    background-position: top 0 right -150px;
+    //  background-image: url("/images/phone.webp");
+    //  background-repeat: no-repeat;
+    //  background-size: 643px 500px;
+    //  background-position: top 0 right -150px;
   }
   .line {
     width: 2px;
