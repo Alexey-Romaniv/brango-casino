@@ -1,6 +1,7 @@
+@import "../../styles/vars";
 .section__license {
   padding-top: 64px;
-  background-image: url("/images/bg.webp");
+  background: $second-bg-color;
   background-size: cover;
   background-position: center 0;
   background-repeat: no-repeat;

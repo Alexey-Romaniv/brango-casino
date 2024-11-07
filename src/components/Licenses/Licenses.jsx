@@ -2,60 +2,57 @@ import style from "./Licenses.module.scss";
 import Image from "next/image";
 
 export default function Licenses() {
-  return (
-    <section className={`section ${style.section__license}`}>
-      <div className="container">
-        <div className={style.box}>
-          <div>
-            <h2 className={`title ${style.section__title}`}>
-              Licenses: Rocket Play Casino No Deposit Bonus Codes 2022
-            </h2>
-            <p>
-              The service operates legally. The confirmation is a valid Curacao
-              license. Information about the license is available on the
-              official website.
-            </p>
-          </div>
-          <div>
-            <Image
-              src="/images/licence_logo.webp"
-              alt="license"
-              width={240}
-              height={240}
-              loading="lazy"
-              className={style.img}
-            />
-          </div>
+    return (
+        <section className={`section ${style.section__license}`}>
+            <div className="container">
+                <div className={style.box}>
+                    <div>
+                        <h2 className={`title ${style.section__title}`}>
+                            Licenses
+                        </h2>
+                        <p>
+                            Brango is licensed and regulated under the jurisdiction of Curaçao. This licensing ensures
+                            that the casino adheres to international standards for fair play and security, giving
+                            partakers confidence in its operational integrity.
+                        </p>
+                    </div>
+                    <div>
+                        <Image
+                            src="/images/licence_logo.webp"
+                            alt="license"
+                            width={240}
+                            height={240}
+                            loading="lazy"
+                            className={style.img}
+                        />
+                    </div>
+                    <div>
+                        <h2 className={`title ${style.section__title}`}>
+                            Security
+                        </h2>
+                        <p>
+                            To secure user data, the venue employs RSA encryption technology, which safeguards sensitive
+                            information like personal details and financial transactions. They also maintain strict
+                            verification processes and are committed to trustworthy gambling, allowing partakers to set
+                            deposit limits and encouraging the use of parental control software if needed.
 
-          <div>
-            <h2 className={`title ${style.section__title}`}>
-              Software Technologies: Casino Rocket Bonus Codes
-            </h2>
-            <p>
-              The company that owns the Australian casino cooperates with many
-              well-known providers of gaming software. You have a great
-              opportunity to choose a game from your favorite provider, or try
-              games from new providers.
-            </p>
-            <br />
-            <p>
-              Among the most famous are BGaming, BetSoft, NetEnt, Habanero,
-              Evolution, Amatic and many others. Most of the pokies and some
-              other gambling games are available on the site in free demo mode.
-            </p>
-          </div>
-          <div>
-            <h2 className={`title ${style.section__title}`}>
-              Security: Rocket Play Casino No Deposit Sign Up Bonus
-            </h2>
-            <p>
-              The service uses a multi-level security system, provides reliable
-              data encryption and strictly adheres to the privacy policy.
-              Therefore, playing here is absolutely safe.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
+                        </p>
+                    </div>
+
+                    <div>
+                        <h2 className={`title ${style.section__title}`}>
+                            Software Technologies
+                        </h2>
+                        <p>
+                            Brango operates primarily on Real Time Gaming (RTG) software, known for offering a robust
+                            choice of over 400 titles, including slots, table titles, and video poker. RTG ensures
+                            smooth gameplay, fair outcomes, and high-quality graphics across its game library,
+                            accessible through both downloadable software and instant-play options on desktop or mobile.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
 }

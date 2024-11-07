@@ -1,5 +1,7 @@
+@import "../../styles/vars";
 .section__support {
   padding-top: 96px;
+  color: $third-text-color;
   @media screen and (min-width: 1024px) {
     padding-top: 140px;
   }
@@ -30,10 +32,14 @@
   display: none;
   @media screen and (min-width: 1024px) {
     display: block;
-    width: 280px;
+    width: 550px;
     margin: 0 auto;
   }
   @media screen and (min-width: 1200px) {
-    width: 420px;
+    width: 620px;
   }
+}
+
+.title{
+  color: $third-text-color;
 }

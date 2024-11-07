@@ -1,14 +1,15 @@
 @import "../../styles/vars";
 .advantages {
-  background-image: url("/images/bg.webp");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background:#F0BD30;
+  //background-position: center;
+  //background-size: cover;
+  //background-repeat: no-repeat;
   padding-top: 40px;
   padding-bottom: 40px;
   position: relative;
 
   & .advantages__title {
+    color: $text-color;
     font-size: 20px;
     margin-bottom: 24px;
     padding-left: 24px;
@@ -124,13 +125,13 @@
 }
 .appPhoneImg {
   margin: 0 auto 38px;
-  width: 495px;
+  width: 304px;
   height: auto;
   @media screen and (min-width: 1024px) {
     position: absolute;
     top: 0;
     right: 0;
-    width: 595px;
+    width: 351px;
     margin: 0;
     z-index: 0;
   }

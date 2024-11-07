@@ -2,10 +2,10 @@
 
 .section {
   position: relative;
-  padding: 320px 0 120px;
+  padding: 340px 0 120px;
   background: url("/images/hero-mob.webp");
   background-size: 320px auto;
-  background-position: top 93px right 50%;
+  background-position: top 83px right 50%;
   background-repeat: no-repeat;
   @media screen and (min-width: 576px) {
     padding: 520px 0 120px;
@@ -19,7 +19,7 @@
   @media screen and (min-width: 1200px) {
     background: url("/images/hero-img.webp");
     background-repeat: no-repeat;
-    background-size: 740px auto;
+    background-size: 710px auto;
     background-position: top 92px right 0;
   }
   @media screen and (min-width: 1440px) {
@@ -51,18 +51,7 @@
   font-weight: 900;
   text-transform: uppercase;
   line-height: normal;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#00ff6d),
-    to(#009941)
-  );
-  background: -o-linear-gradient(top, #00ff6d 0%, #009941 100%);
-  background: linear-gradient(180deg, #00ff6d 0%, #009941 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color:#ffffff;
   margin-bottom: 40px;
   @media screen and (min-width: 400px) {
     font-size: 56px;

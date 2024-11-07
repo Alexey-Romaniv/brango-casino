@@ -1,5 +1,7 @@
+@import "../../styles/vars";
 .historySection {
   padding-top: 96px;
+  color: $third-text-color;
 
   @media screen and (min-width: 1024px) {
     padding-top: 140px;

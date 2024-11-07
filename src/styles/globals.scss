@@ -114,11 +114,14 @@ a {
   text-transform: uppercase;
   margin-bottom: 40px;
   line-height: normal;
-  color: $third-text-color;
+  color: $text-color;
   @media screen and (min-width: 1024px) {
     font-size: 56px;
     font-weight: 700;
     margin-bottom: 48px;
+  }
+  &.white{
+    color:$third-text-color;
   }
 }
 

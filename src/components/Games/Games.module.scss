@@ -71,15 +71,15 @@
 }
 
 .card:hover .cardBack {
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
   opacity: 1;
 }
 
 .cardFront,
 .cardBack {
-  border-radius: 8px;
+  border-radius: 0px;
   overflow: hidden;
   width: 100%;
   height: 100%;
@@ -105,10 +105,10 @@
   }
 }
 .cardBack {
-  border: 2px solid #f6f2ff;
+  //border: 2px solid #f6f2ff;
   width: 100%;
-  color: $third-text-color;
-  background-color: $card-bg-color; /* Цвет обратной стороны */
+  color: #FFBB00;
+  background-color: #9C9DBA; /* Цвет обратной стороны */
   opacity: 0;
   -webkit-transition: all 250ms ease-in-out;
   -o-transition: all 250ms ease-in-out;
@@ -144,7 +144,7 @@
     align-items: center;
     gap: 16px;
     font-size: 18px;
-    color: $third-text-color;
+    color: #FFBB00;
     @media screen and (min-width: 1024px) {
       font-size: 24px;
     }

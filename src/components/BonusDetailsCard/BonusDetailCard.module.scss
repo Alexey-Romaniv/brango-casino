@@ -4,8 +4,8 @@
   width: 100%;
   position: relative;
   z-index: 100;
-  border-radius: 8px;
-  border: 2px solid #f6f2ff;
+  border-radius: 0px;
+  //border: 2px solid #f6f2ff;
   background-color: $card-bg-color;
   display: grid;
   column-gap: 1px;
@@ -18,6 +18,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    color: $third-text-color;
     width: 100%;
     height: 100%;
     padding: 8px;

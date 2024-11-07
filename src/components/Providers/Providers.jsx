@@ -28,7 +28,7 @@ export default function Providers({ firstId }) {
     !!dataLoaded && (
       <section className={`section ${style.section__soft}`}>
         <div className="container">
-          <h2 className="title">Software Providers</h2>
+          <h2 className={`title ${style.title}`}>Software Providers</h2>
           <ul className={style.list}>
             {data.map((i) => {
               return (

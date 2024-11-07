@@ -1,125 +1,82 @@
 import style from "./Info.module.scss";
 
 export default function Info() {
-  return (
-    <section className={`section ${style.historySection}`}>
-      <div className="container">
-        <div className={style.list}>
-          <div>
-            <h2 className="title">
-              Games Available to Play: Casino Rocket Games
-            </h2>
-            <p>
-              Each Rocket Casino game causes incredible delight and allows you
-              to get bright, unforgettable emotions. The range of gambling
-              entertainment on this service is constantly expanding. At the same
-              time, thanks to the intuitive interface and convenient filters,
-              you can easily find your favorite game on the Rocket Play Casino
-              new website.
-            </p>
-          </div>
-          <div className={style.section__grid}>
-            <div>
-              <h2 className={`title ${style.section__title}`}>
-                Pokies: Casino Rocket FAQ
-              </h2>
-              <p>
-                You can Casino Rocket Play free, or use the real money mode.
-                Pokies are presented by more than 1000 unique pokies. Here you
-                can enjoy classic pokies, video slots, open a section with
-                popular games and much more.
-                <br />
-                You just need to create an account, get Rocket Play Casino no
-                deposit bonus or take advantage of the unique opportunity of the
-                demo mode. In this case, you don't even have to register. The
-                games are absolutely free. But without an account and money, you
-                will not be able to get Rocket Casino no deposit bonus. As well
-                as withdraw money in case of winning in demo mode.
-              </p>
+    return (
+        <section className={`section ${style.historySection}`}>
+            <div className="container">
+                <div className={style.list}>
+                    <div>
+                        <h2 className="title">
+                            Available to Play at Brango Casino
+                        </h2>
+                        <p>
+                            Brango offers a well-rounded choice of titles, catering to diverse bias and skill levels
+                            among online partakers. Known for partnering with top-tier software providers, the venue
+                            delivers high-quality graphics, smooth performance, and engaging themes. Here’s a closer
+                            look at the gaming options available:
+
+                        </p>
+                    </div>
+                    <div className={style.section__grid}>
+                        <div>
+                            <h2 className={`title ${style.section__title}`}>
+                                Slots
+                            </h2>
+                            <p>
+                                Brango’s slot selection is extensive and designed to cater to all player bias, with
+                                options ranging from classic fruit slots that evoke nostalgia to modern adventure and
+                                fantasy-themed titles that provide immersive stories and high-quality graphics.
+                                Partakers can explore diverse game mechanics, from traditional three-reel slots to more
+                                advanced five-reel versions with unique paylines and customizable betting options.
+                                Beyond the visuals, Brango’s slots stand out for their engaging features, which include
+                                Brango Casino 50 free spins, cascading reels, multipliers, expanding wilds, and bonus
+                                rounds, all aimed at enhancing the chances for partakers to land winning combinations.
+                                Popular titles such as Achilles, Cash Bandits, and Eagle Shadow Fist offer diverse
+                                gameplay ventures, from historical battles to crime capers and mythical adventures,
+                                appealing to both newcomers who enjoy straightforward gameplay and seasoned partakers
+                                looking for added depth and reward.
+
+                            </p>
+                        </div>
+                        <div>
+                            <h2 className={`title ${style.section__title}`}>
+                                Table
+                            </h2>
+                            <p>
+                                For partakers seeking the strategic depth and thrill of traditional casino titles, the
+                                venue delivers a comprehensive scope of classic table titles, each designed to mimic the
+                                authentic atmosphere of a physical casino. Options include timeless favorites like
+                                blackjack, roulette, and baccarat, all presented with high-quality graphics and smooth
+                                animations that make for an engaging venture. The blackjack variations, such as Classic
+                                Blackjack and European Blackjack, allow partakers to choose formats that suit their
+                                preferred strategies, while roulette options, including American and European Roulette,
+                                offer different levels of challenge and excitement. Baccarat enthusiasts will also find
+                                Brango’s take on this classic game to be intuitive and visually appealing, giving
+                                partakers a realistic table venture right from their screen.
+
+                            </p>
+                        </div>
+                        <div>
+                            <h2 className={`title ${style.section__title}`}>
+                                Video Poker
+                            </h2>
+                            <p>
+                                For fans of titles that combine elements of strategy and luck, the venue presents an
+                                impressive array of video poker titles, where skillful play can improve winning
+                                potential. This category features popular versions like Jacks or Better, Deuces Wild,
+                                and Aces and Eights, each offering unique rules and payout structures. Video poker at
+                                Brango is not only about landing winning hands but also about understanding odds and
+                                employing optimal strategies, making it a favorite for those who enjoy a more
+                                interactive playing venture. Partakers can find varying pay tables that cater to their
+                                preferred balance of risk and reward, and with high payout rates, video poker presents
+                                opportunities for substantial wins.
+
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
             </div>
-            <div>
-              <h2 className={`title ${style.section__title}`}>
-                Bitcoin Games: Rocket Play Casino Codes
-              </h2>
-              <p>
-                An important advantage and feature of Rocket Play Casino
-                Australia is the ability to play using cryptocurrency wallets.
-                The site has created a special section dedicated to games using
-                crypto currency.
-                <br />
-                Here you can realize the potential of your crypto wallet, place
-                a bet of almost any size and get a real chance to win. Due to
-                the uniqueness of cryptocurrency, your winnings can constantly
-                increase due to the changing exchange rate of cryptocurrencies.
-              </p>
-            </div>
-            <div>
-              <h2 className={`title ${style.section__title}`}>
-                Live Casino: Rocket Play Casino Bonus
-              </h2>
-              <p>
-                Many modern gamblers prefer to choose games where real dealers
-                participate. The uniqueness of such entertainment is that on
-                your screen you watch dealers who play the game in an exciting
-                way, create a unique atmosphere and bring us closer to the
-                conditions of land-based gambling houses.
-                <br />
-                At the same time, the choice of games with live dealers here is
-                incredible. This is an excellent reason to activate the Rocket
-                Play Casino promo code and get additional benefits, game money
-                and free spins.
-              </p>
-            </div>
-            <div>
-              <h2 className={`title ${style.section__title}`}>
-                Casino Rocket Poker{" "}
-              </h2>
-              <p>
-                To experience all the advantages of Rocket Play Casino real
-                money, be sure to try your hand at video poker. This is an
-                exciting and modern game. Here you will not have to rely only on
-                luck. Much depends on you.
-                <br />
-                Therefore, train, learn to play poker, show your skills and
-                demonstrate a high level of play. Thanks to the unique
-                atmosphere of this casino and fair winnings, you will definitely
-                be satisfied.
-              </p>
-            </div>
-            <div>
-              <h2 className={`title ${style.section__title}`}>
-                Table Games: Casino Rocket Slots
-              </h2>
-              <p>
-                The Casino Rocket Play online service offers an impressive
-                selection of table games. These are such unique entertainments
-                as baccarat, blackjack, roulette, dice and much more.
-                <br />
-                In table games, you will have to show skills and abilities.
-                Carefully choose the type of game and the tables you want to sit
-                at. Depending on the level of training and bets, you can win
-                impressive winnings.
-              </p>
-            </div>
-            <div>
-              <h2 className={`title ${style.section__title}`}>
-                Jackpots: Casino Rocket No Deposit Bonus Codes
-              </h2>
-              <p>
-                Many customers come here not only for bright emotions, but also
-                for big winnings. And the most impressive wins can be obtained
-                thanks to jackpot games. That's why a separate collection of
-                gambling entertainments is collected here, in which really solid
-                money is played out.
-                <br />
-                Of course, there won't be many chances. But the probability of
-                winning is always present. You just need a little luck and
-                patience. And most importantly - learn to enjoy gambling.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
+        </section>
+    );
 }

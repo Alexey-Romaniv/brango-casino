@@ -1,124 +1,90 @@
 import style from "./BonusesAndPromos.module.scss";
 
 export default function BonusesAndPromos() {
-  return (
-    <section className={`section ${style.historySection}`}>
-      <div className="container">
-        <div className={style.list}>
-          <div>
-            <h2 className="title">
-              Bonuses and Promotions: Rocket Play Casino No Deposit Bonus Codes
-            </h2>
-            <p>
-              Objectively, this is one of the most generous online casinos in
-              Australia. You can easily agree with this if you look at the list
-              of promotions and bonus offers. Each client decides for themselves
-              which of the rewards to use.
-            </p>
-          </div>
-          <div className={style.section__grid}>
-            <div>
-              <h2 className={`title ${style.section__title}`}>
-                First Welcome Bonus: Rocket Play Casino Free Spins
-              </h2>
-              <p>
-                We have a great opportunity to get Rocket Play Casino free chips
-                and play money to a special bonus account thanks to the welcome
-                reward. Moreover, players of this service receive two bonuses at
-                once for registration and deposits.
-                <br />
-                The first bonus is 100% of your deposit, as well as an
-                additional 50 free spins. The maximum you can get is AU$333. To
-                do this, just register and deposit AU$20 or more into your
-                account.
-              </p>
+    return (
+        <section className={`section ${style.historySection}`}>
+            <div className="container">
+                <div className={style.list}>
+                    <div>
+                        <h2 className="title">
+                            Brango Casino Bonuses and Promotions
+                        </h2>
+                        <p>
+                            Brango offers a variety of bonuses and advancements designed to enhance the participant
+                            venture and provide additional value. Below are some key bonus options available at the
+                            venue:
+                        </p>
+                    </div>
+                    <div className={style.section__grid}>
+                        <div>
+                            <h2 className={`title ${style.section__title}`}>
+                                Welcome Bonus and Brango Casino free chip code no deposit
+                            </h2>
+                            <p>
+                                Brango welcomes new partakers with a substantial bonus of 500%, matched up to NZ$1,000,
+                                on the initial deposit, making it a great option for those looking to start strong.
+                                Additionally, partakers receive 500 free spins and Brango Casino bonus codes on selected
+                                slot titles, allowing for an extended trial of the casino's slot offerings. The minimum
+                                deposit required to claim this bonus is NZ$20, making it accessible for most partakers.
+                                The Brango Casino no deposit bonus funds come with a 10x wagering requirement, which is
+                                relatively low compared to other casinos, ensuring partakers have a fair chance of
+                                withdrawing their winnings. Meanwhile, any earnings from the Casino Brango free spins
+                                are subject to a 30x wagering requirement. To claim this Brango Casino $100 free chip
+                                welcome package, partakers need to use the promo code THE KINGS during the deposit
+                                process, unlocking a valuable boost for their playing venture.
+
+                            </p>
+                        </div>
+                        <div>
+                            <h2 className={`title ${style.section__title}`}>
+                                NZ$50 Free Chip and Brango Casino no deposit bonus codes today
+                            </h2>
+                            <p>
+                                For partakers looking to try the venue without an upfront commitment, the NZ$50 Free
+                                Chip bonus and Brango Casino 100 free chip is an ideal option. This no-deposit bonus
+                                gives partakers NZ$50 in free credits to explore the casino's extensive slot selection,
+                                allowing them to undergo the platform without using their own funds. The Casino Brango
+                                no deposit free spins existing players has a 20x wagering requirement, meaning partakers
+                                must wager 20 times the bonus amount to convert it into real cash. The maximum cashout
+                                from this bonus is capped at NZ$50, giving partakers a chance to try out different
+                                titles with a potential return. To activate this Brango Casino 200 free chip bonus,
+                                partakers need to enter the promo code KINGSCHIP and can start exploring the venue
+                                risk-free.
+
+                            </p>
+                        </div>
+                        <div>
+                            <h2 className={`title ${style.section__title}`}>
+                                200% No Rules Bonus and Brango Casino promo codes
+                            </h2>
+                            <p>
+                                For those who prefer Brango Casino codes without strict wager, there is 200% No Rules
+                                Bonus provides a flexible option. With this bonus, partakers receive a 200% match on
+                                their deposit, allowing them to triple their initial funds instantly. The minimum
+                                deposit to activate this bonus is NZ$20, and unlike traditional Casino Brango 1000 free
+                                spins bonuses, this one has no maximum cashout limit or wager. This means that whatever
+                                partakers win from this bonus is theirs to keep, a rarity in the online casino world.
+                                Designed exclusively for non-progressive slot titles, Brango Casino no deposit bonus
+                                codes can be activated with the code LIMITLESS, giving partakers a relaxed and rewarding
+                                start without restrictions.
+                            </p>
+                        </div>
+                        <div>
+                            <h2 className={`title ${style.section__title}`}>
+                                Happy Days Bonus and Brango Casino Free Spins
+                            </h2>
+                            <p>
+                                The Happy Days Bonus is a regular advancement available every Sunday and Monday,
+                                offering partakers a 150% match bonus on deposits (or 75% if using a credit card). With
+                                a 40x wagering requirement applied to both the deposit and bonus, this advancement is
+                                designed to give regular partakers a weekend boost. The Casino Brango $100 no deposit
+                                bonus applies to non-progressive slots, letting partakers maximize their gaming time
+                                with enhanced funds.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div>
-              <h2 className={`title ${style.section__title}`}>
-                Second Welcome Bonus: Rocket Casino Bonus Codes
-              </h2>
-              <p>
-                Here the conditions are even more favorable for those who like
-                to play often on gambling platforms. You get 50% of the deposit
-                amount, but no more than AU$66. In addition to this reward, you
-                are credited with 100 free spins.
-                <br />
-                The conditions are the same as in the case of the first bonus.
-                It is enough to deposit AU$20 into the account. After that, the
-                bonus will be credited automatically.
-              </p>
-            </div>
-            <div>
-              <h2 className={`title ${style.section__title}`}>
-                Reload Bonuses: Casino Rocket Review
-              </h2>
-              <p>
-                Carefully read the Casino Rocket bonus terms to decide which of
-                the current offers suits you best. By making repeated deposits,
-                you have a great chance to receive additional rewards.
-                <br />
-                Usually, the Australian casino raffles off play money, free
-                spins and other valuable gifts for gamblers. Follow the current
-                list of promotions and make the most of the best offers.
-              </p>
-            </div>
-            <div>
-              <h2 className={`title ${style.section__title}`}>
-                Tournaments: Rocket Casino Bonus
-              </h2>
-              <p>
-                A great opportunity to earn a lot of bonuses, money and free
-                spins is to take part in special tournaments. The Australian
-                casino website regularly holds competitions between clients.
-                <br />
-                The prize pools can be several million. And you have a real
-                chance to take one or several main prizes at once.
-              </p>
-            </div>
-            <div>
-              <h2 className={`title ${style.section__title}`}>
-                Loyalty Program: Rocket Play Casino No Deposit Bonus 2022
-              </h2>
-              <p>
-                The Australian casino values ​​regular and loyal customers.
-                Therefore, a special loyalty program has been developed for such
-                players.
-                <br />
-                Here you can earn loyalty points, gradually increase your level
-                and receive numerous rewards. The casino offers increasing
-                cashback, free spins, play money, unique and personalized gifts
-                for everyone.
-              </p>
-            </div>
-            <div>
-              <h2 className={`title ${style.section__title}`}>
-                Software Technologies: Casino Rocket Bonus Codes
-              </h2>
-              <p>
-                The company that owns the Australian casino cooperates with many
-                well-known providers of gaming software. You have a great
-                opportunity to choose a game from your favorite provider, or try
-                games from new providers.
-                <br />
-                Among the most famous are BGaming, BetSoft, NetEnt, Habanero,
-                Evolution, Amatic and many others. Most of the pokies and some
-                other gambling games are available on the site in free demo
-                mode.
-              </p>
-            </div>
-            <div>
-              <h2 className={`title ${style.section__title}`}>
-                Security: Rocket Play Casino No Deposit Sign Up Bonus
-              </h2>
-              <p>
-                The service uses a multi-level security system, provides
-                reliable data encryption and strictly adheres to the privacy
-                policy. Therefore, playing here is absolutely safe.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
+        </section>
+    );
 }

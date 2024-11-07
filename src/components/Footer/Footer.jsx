@@ -291,7 +291,7 @@ export default function Footer() {
           </ul>
 
           <p className={style.copy}>
-            <span>18+</span>Copyright © 2024 Rocket Casino
+            <span>18+</span>Copyright © 2024 Casino Brango
           </p>
         </div>
       </div>

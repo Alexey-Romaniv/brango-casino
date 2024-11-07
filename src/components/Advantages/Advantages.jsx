@@ -6,7 +6,7 @@ export default function Advantages({ firstId }) {
     <section className={`section ${style.advantages}`}>
       <div className={`container ${style.wrapper}`}>
         <div className={style.wrapper__container}>
-          <h2 className={`title ${style.advantages__title}`}>Advantages</h2>
+          <h2 className={`title white  ${style.advantages__title}`}>Advantages</h2>
           <ul className={style.advlist}>
             <li>
               <Image
@@ -70,7 +70,7 @@ export default function Advantages({ firstId }) {
         <div className={style.line}></div>
         <div className={style.appBox}>
           <h2 className={`title ${style.advantages__title}`}>
-            Rocket Casino APP
+            Magic palace APP
           </h2>
           <div className={style.appImgBox}>
             <Image
@@ -78,16 +78,16 @@ export default function Advantages({ firstId }) {
               src="/images/phone-mob.webp"
               alt="Rocket Casino phone"
               loading="lazy"
-              width={495}
-              height={460}
+              width={304}
+              height={440}
             />
             <Image
               className={`${style.appPhoneImg} ${style.appPhoneImgDesk}`}
               src="/images/phone-desk.webp"
               alt="Rocket Casino phone"
               loading="lazy"
-              width={595}
-              height={426}
+              width={351}
+              height={502}
             />
             <div className={style.linkList}>
               <a href={`/casino/${firstId}`}>

@@ -28,7 +28,7 @@
   }
 }
 .link {
-  color: $text-color;
+  color: $third-text-color;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: "Roboto", sans-serif;
   font-size: 32px;
@@ -43,28 +43,18 @@
   @media screen and (min-width: 1024px) {
     font-size: 20px;
   }
+
   &:active,
   &:visited {
-    color: #ffffff;
+    color: #FFBB00;
   }
+
   &:hover {
-    background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(#00ff6d),
-      to(#009941)
-    );
-    background: -o-linear-gradient(top, #00ff6d 0%, #009941 100%);
-    background: linear-gradient(180deg, #00ff6d 0%, #009941 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #FFBB00;
   }
 }
-
 .link.active {
-  color: #ffffff;
+  color: #FFBB00;
 }
 
 .btnMenu {
@@ -123,7 +113,7 @@
   position: absolute;
   width: 30px;
   height: 3px;
-  background-color: $text-color;
+  background-color: $third-text-color;
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
   transition: 0.4s;

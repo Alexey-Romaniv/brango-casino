@@ -1,6 +1,7 @@
+@import "../../styles/vars";
 .historySection {
   padding-top: 40px;
-  background-image: url("/images/bg.webp");
+  background:$second-bg-color;
   background-size: cover;
   background-position: center 0;
   background-repeat: no-repeat;

@@ -37,7 +37,7 @@ export default function BonusDetails({ offers }) {
   return (
     <section className={`section ${style.sectionBonus}`} id="bonuses">
       <div className="container">
-        <h2 className="title">BONUS DETAILS</h2>
+        <h2 className="title white">BONUS DETAILS</h2>
         <ul className={style.list}>
           <li className={style.headerRow}>
             <span>Casino</span>

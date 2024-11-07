@@ -1,6 +1,7 @@
+@import "../../styles/vars";
 .mobileSection {
   padding-top: 64px;
-  background-image: url("/images/bg.webp");
+  background:$second-bg-color;
   background-size: cover;
   background-position: center 0;
   background-repeat: no-repeat;
@@ -66,26 +67,30 @@
   gap: 8px;
 }
 .phoneImg {
-  width: 60%;
-  position: absolute;
+  position: static;
+  width: 482px;
+  height: auto;
+  //position: absolute;
+  margin: 0 auto;
   top: -101px;
   right: 0;
   z-index: 10;
   @media screen and (min-width: 340px) {
-    width: 45%;
+    width: 75%;
   }
   @media screen and (min-width: 577px) {
     top: -151px;
-    width: 307px;
+    width: 507px;
   }
   @media screen and (min-width: 1024px) {
     top: -87px;
     right: 0;
-    width: 535px;
+    width: 515px;
   }
   @media screen and (min-width: 1200px) {
-    top: -107px;
-    width: 595px;
+    position: absolute;
+    top: -27px;
+    width: 536px;
     right: 56px;
   }
 }

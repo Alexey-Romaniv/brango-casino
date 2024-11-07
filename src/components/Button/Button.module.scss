@@ -12,7 +12,7 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border-radius: 100px;
+  border-radius: 0px;
   border: 4px solid rgba(255, 255, 255, 0.2);
   position: relative;
   overflow: hidden;
@@ -21,13 +21,13 @@
     linear,
     left top,
     left bottom,
-    from(#ff0092),
-    to(#d2057b)
+    from(#0046FF),
+    to(#000A9D)
   );
-  background: -o-linear-gradient(top, #ff0092 0%, #d2057b 100%);
-  background: linear-gradient(180deg, #ff0092 0%, #d2057b 100%);
+  background: -o-linear-gradient(top, #0046FF 0%, #000A9D 100%);
+  background: linear-gradient(180deg, #0046FF 0%, #000A9D 100%);
   z-index: 2;
-  color: $text-color;
+  color: $third-text-color;
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
   text-transform: uppercase;

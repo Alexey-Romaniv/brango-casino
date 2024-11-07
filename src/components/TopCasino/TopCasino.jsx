@@ -15,7 +15,7 @@ export default function TopCasino({ offers, country }) {
   ) : (
     <section className="section" id="casino">
       <div className="container">
-        <h2 className="title">Top Casinos {country}</h2>
+        <h2 className="title white">Top Casinos {country}</h2>
         <ul className={style.list}>
           {getVisibleItems().map((i) => {
             return (

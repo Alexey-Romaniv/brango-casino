@@ -12,7 +12,7 @@ export default function Payments({ firstId }) {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          "https://api.adkey-seo.com/api/website/get-payments/471"
+          "https://api.adkey-seo.com/api/website/get-payments/559"
         );
         const loadData = await response.json();
         setData(loadData);
@@ -30,7 +30,7 @@ export default function Payments({ firstId }) {
     !!dataLoaded && (
       <section className={`section ${style.section__payment}`} id="payments">
         <div className="container">
-          <h2 className="title">PAYMENT METHODS</h2>
+          <h2 className={`title ${style.title}`}>PAYMENT METHODS</h2>
           <ul className={style.list}>
             <li className={style.headerRow}>
               <span>Method</span>

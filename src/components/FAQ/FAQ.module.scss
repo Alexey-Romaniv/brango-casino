@@ -21,9 +21,10 @@
   font-size: 18px;
   font-weight: bold;
   line-height: normal;
-  border-radius: 8px;
-  border: 2px solid #f6f2ff;
-  background-color: #7a13b8;
+  border-radius: 0px;
+  //border: 2px solid #f6f2ff;
+  color: $third-text-color;
+  background-color: $card-bg-color;
   text-transform: uppercase;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -45,6 +46,11 @@
   padding: 10px 0 0;
   font-size: 18px;
   text-align: left;
+  color: $third-text-color;
+}
+.section__title{
+  color: $third-text-color;
+  font-family: "Roboto", sans-serif;
 }
 
 @media screen and (min-width: 1024px) {
