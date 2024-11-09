@@ -9,7 +9,7 @@
   background-repeat: no-repeat;
   @media screen and (min-width: 576px) {
     padding: 520px 0 120px;
-    background-size: 576px 420px;
+    background-size: 576px auto;
     background-position: top 63px right 50%;
   }
   @media screen and (min-width: 1024px) {

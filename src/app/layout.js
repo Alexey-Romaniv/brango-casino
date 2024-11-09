@@ -13,7 +13,7 @@ export const metadata = {
 
 export default function RootLayout({children}) {
     return (
-        <html lang="en">
+        <html lang="en-NZ">
         <head>
             <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
             <link rel="apple-touch-icon" href="/icons/apple-touch-icon.webp"/>
@@ -92,33 +92,33 @@ export default function RootLayout({children}) {
             ></meta>
             <meta name="theme-color" content="#ffffff"/>
             <meta name="language" content="English"/>
-            <meta property="og:locale" content="en-AU"/>
+            <meta property="og:locale" content="en-NZ"/>
 
             <meta
                 property="og:title"
-                content="Rocket Casino Australia: Exciting Online Casino Detailed Review"
+                content="Brango Casino Canada: Top Games, Fast Payouts & Secure Play"
             />
             <meta
                 property="og:description"
-                content="Rocket Casino Australia: everything you need to know about the popular gambling service. Generous bonuses, exciting games, a profitable loyalty program and a lot of other useful information."
+                content="Brango Casino offers Canadian players fast payouts, top games, and secure transactions. Join today to explore exciting bonuses and experience premium online gaming!"
             />
             <meta property="og:image" content="/icons/Rocket-Casino-baner.webp"/>
-            <meta property="og:url" content="https://rocketcasino-australia.com"/>
+            <meta property="og:url" content="https://brango-casino-online.com"/>
             <meta property="og:image:width" content="1200"/>
             <meta property="og:image:height" content="630"/>
             <meta property="og:type" content="website"/>
             <meta
                 name="twitter:title"
-                content="Rocket Casino Australia: Exciting Online Casino Detailed Review"
+                content="Brango Casino Canada: Top Games, Fast Payouts & Secure Play"
             />
             <meta
                 name="twitter:description"
-                content="Rocket Casino Australia: everything you need to know about the popular gambling service. Generous bonuses, exciting games, a profitable loyalty program and a lot of other useful information."
+                content="Brango Casino offers Canadian players fast payouts, top games, and secure transactions. Join today to explore exciting bonuses and experience premium online gaming!"
             />
             <meta name="twitter:image" content="/icons/Rocket-Casino-baner.webp"/>
             <meta name="twitter:card" content="summary_large_image"/>
             <meta name="twitter:site" content="rocketcasino-australia.com"/>
-            <meta name="twitter:url" content="https://rocketcasino-australia.com"/>
+            <meta name="twitter:url" content="https://brango-casino-online.com"/>
             <meta name="twitter:image:width" content="1200"/>
             <meta name="twitter:image:height" content="630"/>
             <meta name="next-size-adjust" content="auto"/>

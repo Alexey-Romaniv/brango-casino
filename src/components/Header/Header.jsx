@@ -8,6 +8,30 @@ import Image from "next/image";
 export default function Header() {
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
+
+  const [dataLoaded, setDataLoaded] = useState(false);
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch(
+            "https://api.adkey-seo.com/api/website/get-website/559"
+        );
+        const loadData = await response.json();
+        setData(loadData);
+        setDataLoaded(true);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+
+    if (!dataLoaded) {
+      fetchData();
+    }
+  }, [dataLoaded]);
+
+
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
@@ -26,7 +50,7 @@ export default function Header() {
     <header className={style.header}>
       <div className={`${style.header__container}`}>
         <div className={style.logo__box}>
-          <Link href="/#main" aria-label="to main">
+          <Link href="http://brango-casino-online.com" aria-label="to main">
             <Image
               src="/images/logo.svg"
               alt="Rocket Casino logo"
@@ -99,7 +123,7 @@ export default function Header() {
                   className={`${style.link} ${
                     pathname === "/#signin" ? style.active : ""
                   }`}
-                  href="/#signin"
+                  href={`/casino/${data?.offers[0].id}`}
                   onClick={() => onLinkClick("signin")}
                 >
                   Sign In

@@ -135,12 +135,16 @@
     margin: 0;
     z-index: 0;
   }
+  @media screen and (min-width: 1440px) {
+    right:calc(50% - 600px)
+  }
 }
 .appPhoneImgDesk {
 	display: none;
 	 @media screen and (min-width: 1024px) {
 		display: block;
 	  }
+
 }
 .appPhoneImgMob {
 	display: block;

@@ -35,18 +35,21 @@ export default function About() {
 
                             </p>
                         </div>
-                        <Image
-                            className={style.aboutLaptop}
-                            src="/images/notebook.webp"
-                            alt="Brango Casino macbook"
-                            width={464}
-                            height={283}
-                            loading="lazy"
-                        />
+                        <div style={{width: '709px', flexGrow: 1}}>
+
+                            <Image
+                                className={style.aboutLaptop}
+                                src="/images/notebook.webp"
+                                alt="Brango Casino macbook"
+                                width={709}
+                                height={351}
+                                loading="lazy"
+                            />
+                        </div>
                     </li>
 
                     <li id="signin">
-                        <h2 className={`title ${style.title__small}`}>
+                    <h2 className={`title ${style.title__small}`}>
                             About Casino Brango Login
                         </h2>
                         <p>

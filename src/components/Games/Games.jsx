@@ -30,7 +30,7 @@ export default function Games({ firstId }) {
     !!dataLoaded && (
       <section className={`section ${style.section__games}`} id="games">
         <div className="container">
-          <h2 className="title">
+          <h2 className="title white">
             TOP <span className="accent">GAMES</span>
           </h2>
           <ul className={style.list}>

@@ -93,6 +93,10 @@
     width: 536px;
     right: 56px;
   }
+  @media screen and (min-width: 1440px) {
+    right: calc(50% - 600px);
+  }
+
 }
 .infoList {
   display: grid;
