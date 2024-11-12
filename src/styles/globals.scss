@@ -75,6 +75,7 @@ p {
 p {
   font-size: 16px;
   line-height: 2;
+  font-weight: 500;
   @media screen and (min-width: 375px) {
     font-size: 18px;
   }
@@ -108,7 +109,7 @@ a {
   }
 }
 .title {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 32px;
   font-weight: 900;
   text-transform: uppercase;
@@ -117,7 +118,7 @@ a {
   color: $text-color;
   @media screen and (min-width: 1024px) {
     font-size: 56px;
-    font-weight: 700;
+    font-weight: 900;
     margin-bottom: 48px;
   }
   &.white{
@@ -213,6 +214,8 @@ a {
   min-height: 90vh;
 
   text-align: center;
+
+  color: $third-text-color;
   & h2 {
     font-size: 40px;
   }

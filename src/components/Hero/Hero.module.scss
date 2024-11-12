@@ -4,13 +4,19 @@
   position: relative;
   padding: 340px 0 120px;
   background: url("/images/hero-mob.webp");
-  background-size: 320px auto;
+  background-size: 310px auto;
   background-position: top 83px right 50%;
   background-repeat: no-repeat;
+
+  @media screen and (max-width: 370px) {
+    background-size: 220px auto;
+    padding: 270px 0 120px;
+
+  }
   @media screen and (min-width: 576px) {
     padding: 520px 0 120px;
-    background-size: 576px auto;
-    background-position: top 63px right 50%;
+    background-size: 372px auto;
+    background-position: top 93px right 50%;
   }
   @media screen and (min-width: 1024px) {
     padding: 155px 0 202px;
@@ -19,11 +25,11 @@
   @media screen and (min-width: 1200px) {
     background: url("/images/hero-img.webp");
     background-repeat: no-repeat;
-    background-size: 710px auto;
+    background-size: 646px auto;
     background-position: top 92px right 0;
   }
   @media screen and (min-width: 1440px) {
-    background-position: top 92px right calc((100vw - 1440px) / 2);
+    background-position: top 98px right calc((100vw - 1330px) / 2);
   }
 }
 .wrapper {
@@ -39,24 +45,28 @@
     padding: 0 40px;
   }
   @media screen and (min-width: 1440px) {
-    padding: 0 140px;
+    padding: 0 160px;
   }
 }
 .title {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
   /* Desktop/Welcome */
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 40px;
   font-weight: 900;
   text-transform: uppercase;
   line-height: normal;
   color:#ffffff;
   margin-bottom: 40px;
-  @media screen and (min-width: 400px) {
+  letter-spacing: 0.2rem;
+
+  display: none;
+  @media screen and (min-width: 420px) {
     font-size: 56px;
   }
   @media screen and (min-width: 768px) {
+    display: block;
     font-size: 64px;
     margin-bottom: 48px;
   }
@@ -64,11 +74,23 @@
 .text {
   color: $third-text-color;
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 24px;
   margin-bottom: 40px;
-  @media screen and (min-width: 400px) {
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+
+  @media screen and (max-width: 370px) {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  @media screen and (min-width: 768px) {
+  font-weight: 500;
     font-size: 24px;
+    text-transform: capitalize;
+    text-align: start;
+
   }
   @media screen and (min-width: 768px) {
     font-size: 32px;
@@ -76,9 +98,9 @@
   }
 }
 .wrapper .button {
-  width: 280px;
+  width: 256px;
   @media screen and (min-width: 1200px) {
-    width: 311px;
+    width: 283px;
     height: 87px;
   }
 }

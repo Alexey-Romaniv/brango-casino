@@ -50,13 +50,13 @@ export default function Header() {
     <header className={style.header}>
       <div className={`${style.header__container}`}>
         <div className={style.logo__box}>
-          <Link href="http://brango-casino-online.com" aria-label="to main">
+          <Link href="/" aria-label="to main">
             <Image
               src="/images/logo.svg"
               alt="Rocket Casino logo"
               className="logo"
-              width={114}
-              height={44}
+              width={110}
+              height={39}
             />
           </Link>
         </div>

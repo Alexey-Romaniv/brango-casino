@@ -36,7 +36,7 @@
     display: grid;
     margin-bottom: 48px;
     grid-template-columns: repeat(4, 1fr);
-    gap: 24px;
+    gap: 26px;
   }
   @media screen and (max-width: 519px) {
     & li img {

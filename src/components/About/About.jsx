@@ -35,7 +35,7 @@ export default function About() {
 
                             </p>
                         </div>
-                        <div style={{width: '709px', flexGrow: 1}}>
+                        <div style={{ flexGrow: 1}}>
 
                             <Image
                                 className={style.aboutLaptop}

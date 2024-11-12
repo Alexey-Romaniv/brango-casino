@@ -9,7 +9,7 @@ export default function BonusDetails({ offers }) {
   const [randomList, setRandomList] = useState([]);
 
   useEffect(() => {
-    const firstList = bonusList?.slice(0, 6);
+    const firstList = bonusList?.slice(0, 5);
     setRandomList(firstList);
   }, []);
   const setList = () => {
@@ -21,7 +21,7 @@ export default function BonusDetails({ offers }) {
     const usedIndexes = []; // Массив для хранения уже использованных индексов
 
     // Используем цикл while, чтобы добавить 6 случайных элементов
-    while (randomElements.length < 6 && usedIndexes.length < arr.length) {
+    while (randomElements.length < 5 && usedIndexes.length < arr.length) {
       const randomIndex = Math.floor(Math.random() * arr.length);
 
       // Проверяем, использовался ли уже этот индекс
