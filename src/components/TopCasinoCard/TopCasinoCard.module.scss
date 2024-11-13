@@ -41,7 +41,7 @@
 }
 .card__logo {
   width: 160px;
-  height: 60px;
+  height: 64px;
   margin: 0 auto;
   @media screen and (min-width: 1024px) {
     width: 190px;
@@ -75,8 +75,9 @@
   font-size: 16px;
   font-weight: 500;
   margin-bottom: auto;
-  //margin-top: -8px;
+  margin-top: -8px;
   @media screen and (min-width: 1024px) {
+    margin-top: 0px;
     font-size: 20px;
   }
 }

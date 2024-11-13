@@ -10,6 +10,14 @@
   }
 }
 
+.casinoSection{
+  padding-bottom: 88px;
+
+  @media screen and (min-width: 1024px) {
+    padding-bottom: 140px;
+  }
+}
+
 .list {
   margin-bottom: 40px;
   display: flex;

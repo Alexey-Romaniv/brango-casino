@@ -50,7 +50,7 @@ export default function BonusDetails({ offers }) {
             <span>
               More <br /> info
             </span>
-            <span>Get</span>
+            <span>More info</span>
           </li>
           {randomList.map((i, index) => {
             return (

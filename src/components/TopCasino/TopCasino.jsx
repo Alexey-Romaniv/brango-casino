@@ -13,7 +13,7 @@ export default function TopCasino({ offers, country }) {
   return !offers ? (
     <Loader />
   ) : (
-    <section className="section" id="casino">
+    <section className={`section ${style.casinoSection}`} id="casino">
       <div className="container">
         <h2 className="title white">Top Casinos {country}</h2>
         <ul className={style.list}>
