@@ -76,9 +76,9 @@ export default function About() {
                         </p>
 
                     </li>
-                    <div className={style.flex}>
+                    <li className={style.flex}>
 
-                    <li>
+                    <div>
                         <h2 className={`title ${style.title__small}`}>
                             Deposit Methods
                         </h2>
@@ -91,8 +91,8 @@ export default function About() {
                             typically NZ$20, allowing partakers to start gaming without a high entry requirement.
                         </p>
 
-                    </li>
-                    <li>
+                    </div>
+                    <div>
                         <h2 className={`title ${style.title__small}`}>
                             Withdrawal Methods
                         </h2>
@@ -106,8 +106,8 @@ export default function About() {
                             winnings.
                         </p>
 
-                    </li>
                     </div>
+                    </li>
 
                 </ul>
             </div>

@@ -11,6 +11,7 @@
       -webkit-box-pack: justify;
       -ms-flex-pack: justify;
       justify-content: space-between;
+      position: relative;
       & .footerListWrapper{
         margin-inline: auto;
       }
@@ -111,6 +112,12 @@ margin-bottom: 16px;
   }
   @media screen and (min-width: 1024px) {
     margin: 0;
+    position: absolute;
+    top: 0;
+    left: 40px;
+  }
+  @media screen and (min-width: 1440px) {
+    left: 160px;
   }
 }
 .imgHover {
