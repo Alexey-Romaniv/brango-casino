@@ -13,7 +13,7 @@ export default function Footer() {
             height={44}
           />
         </Link>
-        <div>
+        <div className={style.footerListWrapper}>
           <ul className={`${style.footerList} ${style.listPayment}`}>
             <li className={style.footerItem}>
               <Image

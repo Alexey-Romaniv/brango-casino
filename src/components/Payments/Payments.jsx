@@ -83,6 +83,14 @@ export default function Payments({ firstId }) {
                       width={120}
                       height={64}
                     />
+                    <Button
+                        className={`${style.btn} ${style.btn__green}`}
+                        href={`/casino/${firstId}`}
+                        size="big"
+                        color="second"
+                    >
+                      Deposit
+                    </Button>
                   </div>
                   <div className={style.listDeskBox}>
                     <div className={style.listDeskOptions}>

@@ -18,14 +18,20 @@
     background-size: 372px auto;
     background-position: top 93px right 50%;
   }
+  @media screen and (min-width: 768px) {
+    background-size: 452px auto;
+
+  }
   @media screen and (min-width: 1024px) {
     padding: 155px 0 202px;
-    background-position: top 63px right 0;
+    background-position: top 92px right 0;
+
+    background-size: 646px auto;
+
   }
   @media screen and (min-width: 1200px) {
     background: url("/images/hero-img.webp");
     background-repeat: no-repeat;
-    background-size: 646px auto;
     background-position: top 92px right 0;
   }
   @media screen and (min-width: 1440px) {

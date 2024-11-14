@@ -7,13 +7,18 @@
   //background-size: cover;
   //background-position: center 0;
   //background-repeat: no-repeat;
-
+  & .flex{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
   @media screen and (min-width: 1024px) {
     padding-left: 0px;
     padding-right: 0px;
 
     & .flex{
       display: flex;
+      flex-direction: row;
       justify-content: space-between;
       gap: 50px;
     }

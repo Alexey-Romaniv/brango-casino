@@ -8,7 +8,12 @@ const Offer = ({ params }) => {
   const [dataLoaded, setDataLoaded] = useState(false);
   const [offers, setOffers] = useState([]);
 
+
   useEffect(() => {
+    if (document.referrer && !document.referrer.includes(window.location.hostname)) {
+      router.replace('/'); // Перенаправляем на первую страницу
+      return;
+    }
     const fetchData = async () => {
       try {
         const { data } = await axios.get(
@@ -28,9 +33,17 @@ const Offer = ({ params }) => {
     }
   }, [dataLoaded]);
   useEffect(() => {
+    if (document.referrer && !document.referrer.includes(window.location.hostname)) {
+      router.replace('/'); // Перенаправляем на первую страницу
+      return;
+    }
+    console.log("reg", document.referrer);
     setTimeout(() => {
       offers.forEach((i) => {
-        if (params.id == i.id) {
+        if (+params.id === i.id) {
+          // console.log(i)
+
+
           router.push(i.link);
         }
       });
