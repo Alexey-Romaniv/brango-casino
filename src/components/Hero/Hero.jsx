@@ -17,9 +17,9 @@ export default function Hero({ firstId, firstBonus }) {
   return (
     <section className={style.section}>
       <div className={`${style.wrapper}`}>
-        <p className={style.title}>
+        <h2 className={style.title}>
           WELCOME <br /> BONUS
-        </p>
+        </h2>
         <p className={style.text}>
           Exclusive welcome {text} of <br />
           {firstBonus}
