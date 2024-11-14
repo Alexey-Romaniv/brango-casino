@@ -10,10 +10,7 @@ const Offer = ({ params }) => {
 
 
   useEffect(() => {
-    if (document.referrer && !document.referrer.includes(window.location.hostname)) {
-      router.replace('/'); // Перенаправляем на первую страницу
-      return;
-    }
+
     const fetchData = async () => {
       try {
         const { data } = await axios.get(
@@ -33,18 +30,14 @@ const Offer = ({ params }) => {
     }
   }, [dataLoaded]);
   useEffect(() => {
-    if (document.referrer && !document.referrer.includes(window.location.hostname)) {
-      router.replace('/'); // Перенаправляем на первую страницу
-      return;
-    }
-    console.log("reg", document.referrer);
+
     setTimeout(() => {
       offers.forEach((i) => {
         if (+params.id === i.id) {
           // console.log(i)
 
 
-          router.push(i.link);
+          router.replace(i.link);
         }
       });
     }, 500);
