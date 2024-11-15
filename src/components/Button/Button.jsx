@@ -13,6 +13,7 @@ export default function Hero({
   return (
     <Link
       href={href}
+      rel="noopener noreferrer"
       className={`${style.btn} ${className} ${
         size === "small" ? style.small : style.big
       } ${center ? style.center : ""} ${color === "second" ? style.green : ""}`}
